@@ -1,0 +1,232 @@
+.hero {
+	aspect-ratio: 3/2.25;
+	background-image: url('/images/the-plant.jpg');
+	background-position: top center;
+	background-size: cover;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+	position: relative;
+	
+	@media all and (max-width: $break-medium) {
+		left: 50%;
+		max-width: none;
+		position: absolute;
+		transform: translate(-48%, -13%);
+		width: 176%;
+	}
+	
+	&__date {
+		left: 10.39%;
+		top: 69%;
+		width: 13.37%
+	}
+	
+	&__faqs {
+		bottom: 5%;
+		color: #fff;
+		font-size: 2rem;
+		left: 45%;
+		position: absolute;
+	}
+	
+	&__five {
+		left: 49.75%;
+		position: absolute;
+		top: 44.53%;
+		width: 13.05%;
+		
+		&:hover {
+			.hero__five__hover {
+				display: block;
+			}
+		}
+		
+		&__hover {
+			display: none;
+			left: -67%;
+			pointer-events: none;
+			position: absolute;
+			top: 4px;
+			width: 206%;
+		}
+		
+		&__image {
+			width: 100%;
+		}
+	}
+	
+	img {
+		height: auto;
+		position: absolute;
+	}
+	
+	&__location {
+		left: 77.8%;
+		top: 65.89%;
+		width: 19%
+	}
+	
+	&__moon {
+		left: 76.67%;
+		position: absolute;
+		top: 12.06%;
+		width: 12.39%;
+		
+		&:hover {
+			img {
+				&:last-of-type {
+					display: block;
+				}
+			}
+		}
+		
+		img {
+			width: 100%;
+			
+			&:last-of-type {
+				display: none;
+				left: 6px;
+				position: relative;
+				top: 7px;
+			}
+		}
+	}
+	
+	&__star {		
+		&--left-big {
+			animation: star-left-big .85s step-end infinite;
+			left: 9.16%;
+			top: 14.1%;
+			width: 9.77%;
+		}
+		
+		&--left-small-1 {
+			animation: star-left-small-one 2s step-end infinite;
+			left: 8.97%;
+			top: 37.89%;
+			width: 5.01%;
+		}
+		
+		&--left-small-2 {
+			animation: star-left-small-two 1.25s step-end infinite;
+			left: 23.91%;
+			top: 7.66%;
+			width: 4.4%;
+		}
+		
+		&--right-small-1 {
+			animation: star-right-small-one .85s step-end infinite;
+			left: 65.84%;
+			top: 6.54%;
+			width: 3.74%;
+		}
+		
+		&--right-small-2 {
+			animation: star-right-small-two .65s step-end infinite;
+			left: 85.39%;
+			top: 38.08%;
+			width: 3.2%;
+		}
+	}
+	
+	&__togetherness {
+		position: absolute;
+		left: 24%;
+		top: 15%;
+		width: 48%;
+	}
+	
+	&__two {
+		left: 41.68%;
+		position: absolute;
+		top: 46.85%;
+		width: 8.87%;
+		
+		&:hover {
+			.hero__two__hover {
+				display: block;
+			}
+		}
+		
+		&__hover {
+			display: none;
+			left: -98%;
+			position: absolute;
+			top: -17px;
+			width: 290%;
+			z-index: 50;
+		}
+		
+		&__image {
+			width: 100%;
+		}
+	}
+}
+
+@keyframes star-left-big {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(12deg);
+	}
+}
+
+@keyframes star-left-small-one {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-45deg);
+	}
+	50% {
+		transform: rotate(-90deg);
+	}
+	75% {
+		transform: rotate(-135deg);
+	}
+	100% {
+		transform: rotate(-180deg);
+	}
+}
+
+@keyframes star-left-small-two {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(9deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(-14deg);
+	}
+}
+
+@keyframes star-right-small-one {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	25% {
+		transform: rotate(15deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(-15deg);
+	}
+}
+
+@keyframes star-right-small-two {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-7deg);
+	}
+}
