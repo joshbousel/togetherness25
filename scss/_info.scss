@@ -1,0 +1,108 @@
+.info {
+	background: rgba(24,27,33,0);
+	border-radius: 25px;
+	bottom: 7%;
+	color: #fff;
+	left: 49.5%;
+	max-width: 500px;
+	overflow: hidden;
+	padding: 30px;
+	position: absolute;
+	transform: translate(-50%, 0%);
+	transition: $default-transition;
+	width: 80%;
+	
+	@media all and (max-width: $break-large) {
+		background: linear-gradient(0deg, rgba(13,13,13,1) 95%, rgba(13,13,13,0) 100%);
+		border-radius: 0;
+		margin: -34px 0 0;
+		max-width: 100%;
+		position: relative;
+		width: calc(100% - 60px);
+	}
+	
+	&--active {
+		background: rgba(24,27,33,.95);
+		
+		.info__content {
+			max-height: 500px;
+		}
+		
+		.info__heart__hover {
+			max-height: 100px;
+		}
+	}
+	
+	&__content {
+		max-height: 0;
+		overflow: hidden;
+		transition: $default-transition;
+		
+		@media all and (max-width: $break-large) {
+			max-height: 1000px;
+		}
+		
+		p {
+			font-family: $font-source-sans;
+			font-size: 1.125rem;
+			font-weight: 300;
+			line-height: 2rem;
+			text-align: center;
+			
+			@media all and (max-width: $break-large) {
+				margin: 20px auto 35px;
+				max-width: 500px;
+			}
+		}
+		
+		&__title {
+			display: block;
+			margin: 0 auto;
+			width: 90%;
+			
+			@media all and (max-width: $break-large) {
+				max-width: 500px;
+				width: 100%;
+			}
+		}
+		
+		img {
+			position: relative;
+		}
+	}
+	
+	&__heart {
+		cursor: pointer;
+		margin: 0 auto;
+		position: relative;
+		width: 17%;
+		
+		@media all and (max-width: $break-large) {
+			width: 85px;
+		}
+		
+		&:hover {
+			.info__heart__hover {
+				max-height: 100px;
+			}
+		}
+		
+		&__hover {
+			max-height: 0;
+			overflow: hidden;
+			pointer-events: none;
+			position: absolute;
+			top: 0;
+			transition: $default-transition;
+			
+			@media all and (max-width: $break-large) {
+				max-height: 100px;
+			}
+		}
+		
+		img {
+			position: relative;
+			width: 100%;
+		}
+	}
+}

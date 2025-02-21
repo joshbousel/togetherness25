@@ -1,25 +1,51 @@
 .hero {
 	aspect-ratio: 3/2.25;
-	background-image: url('/images/the-plant.jpg');
-	background-position: top center;
-	background-size: cover;
 	margin: 0 auto;
 	max-height: 100%;
 	max-width: 100%;
 	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 	
-	@media all and (max-width: $break-medium) {
-		left: 50%;
-		max-width: none;
-		position: absolute;
-		transform: translate(-48%, -13%);
-		width: 176%;
+	@media all and (max-width: $break-large) {
+		aspect-ratio: unset;
+		overflow: hidden;
+		transform: none;
+		width: 100%;
+	}
+	
+	&__background {
+		height: 100%;
+		object-fit: cover;
+		position: relative;
+		width: 100%;
+		
+		@media all and (max-width: $break-large) {
+			margin: -15% 0 0 -40%;
+			position: relative;
+			width: 187%;
+		}
 	}
 	
 	&__date {
 		left: 10.39%;
+		position: absolute;
 		top: 69%;
-		width: 13.37%
+		width: 13.37%;
+		
+		@media all and (max-width: $break-large) {
+			left: 9.39%;
+			top: 49%;
+			width: 24%;
+		}
+		
+		@media all and (max-width: $break-medium) {
+			top: 39%;
+		}
+		
+		@media all and (max-width: $break-small) {
+			top: 35%;
+		}
 	}
 	
 	&__faqs {
@@ -36,6 +62,20 @@
 		top: 44.53%;
 		width: 13.05%;
 		
+		@media all and (max-width: $break-large) {
+			left: 52%;
+			top: 29%;
+			width: 18%;
+		}
+		
+		@media all and (max-width: $break-medium) {
+			top: 24%
+		}
+		
+		@media all and (max-width: $break-small) {
+			top: 20.3%;
+		}
+		
 		&:hover {
 			.hero__five__hover {
 				display: block;
@@ -49,6 +89,16 @@
 			position: absolute;
 			top: 4px;
 			width: 206%;
+			
+			@media all and (max-width: $break-large) {
+				animation: five 4s step-end infinite;
+				display: block;
+				visibility: hidden;
+			}
+			
+			@media all and (max-width: $break-small) {
+				top: 3.5%;
+			}
 		}
 		
 		&__image {
@@ -58,13 +108,27 @@
 	
 	img {
 		height: auto;
-		position: absolute;
 	}
 	
 	&__location {
 		left: 77.8%;
+		position: absolute;
 		top: 65.89%;
-		width: 19%
+		width: 19%;
+		
+		@media all and (max-width: $break-large) {
+			left: 61.8%;
+			top: 48.89%;
+			width: 32%;
+		}
+		
+		@media all and (max-width: $break-medium) {
+			top: 39.89%;
+		}
+		
+		@media all and (max-width: $break-small) {
+			top: 34.89%;
+		}
 	}
 	
 	&__moon {
@@ -72,6 +136,11 @@
 		position: absolute;
 		top: 12.06%;
 		width: 12.39%;
+		
+		@media all and (max-width: $break-large) {
+			left: 82%;
+			top: 4%;
+		}
 		
 		&:hover {
 			img {
@@ -82,6 +151,7 @@
 		}
 		
 		img {
+			position: absolute;
 			width: 100%;
 			
 			&:last-of-type {
@@ -93,40 +163,94 @@
 		}
 	}
 	
-	&__star {		
+	&__star {
+		position: absolute;
+				
 		&--left-big {
 			animation: star-left-big .85s step-end infinite;
 			left: 9.16%;
+			position: absolute;
 			top: 14.1%;
 			width: 9.77%;
+			
+			@media all and (max-width: $break-large) {
+				left: 6%;
+				top: 4.1%;
+				width: 9.5%;
+			}
+			
+			// &:hover {
+			// 	img {
+			// 		&:last-of-type {
+			// 			display: block;
+			// 		}
+			// 	}
+			// }
+			
+			img {
+				width: 100%;
+				
+				&:last-of-type {
+					display: none;
+					left: 6px;
+					position: relative;
+					top: -37px;
+				}
+			}
 		}
 		
 		&--left-small-1 {
 			animation: star-left-small-one 2s step-end infinite;
 			left: 8.97%;
+			position: absolute;
 			top: 37.89%;
 			width: 5.01%;
+			
+			@media all and (max-width: $break-large) {
+				left: 4%;
+				top: 13%;
+				width: 7%;
+			}
 		}
 		
 		&--left-small-2 {
 			animation: star-left-small-two 1.25s step-end infinite;
 			left: 23.91%;
+			position: absolute;
 			top: 7.66%;
 			width: 4.4%;
+			
+			@media all and (max-width: $break-large) {
+				left: 21%;
+				top: 2%;
+			}
 		}
 		
 		&--right-small-1 {
 			animation: star-right-small-one .85s step-end infinite;
 			left: 65.84%;
+			position: absolute;
 			top: 6.54%;
 			width: 3.74%;
+			
+			@media all and (max-width: $break-large) {
+				left: 74%;
+				top: 2%;
+			}
 		}
 		
 		&--right-small-2 {
 			animation: star-right-small-two .65s step-end infinite;
 			left: 85.39%;
+			position: absolute;
 			top: 38.08%;
 			width: 3.2%;
+			
+			@media all and (max-width: $break-large) {
+				left: 88%;
+				top: 13%;
+				width: 5%;
+			}
 		}
 	}
 	
@@ -135,6 +259,12 @@
 		left: 24%;
 		top: 15%;
 		width: 48%;
+		
+		@media all and (max-width: $break-large) {
+			left: 7%;
+			top: 2%;
+			width: 85%;
+		}
 	}
 	
 	&__two {
@@ -142,6 +272,20 @@
 		position: absolute;
 		top: 46.85%;
 		width: 8.87%;
+		
+		@media all and (max-width: $break-large) {
+			left: 40%;
+			top: 30.3%;
+			width: 12%;
+		}
+		
+		@media all and (max-width: $break-medium) {
+			top: 25.3%;
+		}
+		
+		@media all and (max-width: $break-small) {
+			top: 21.3%;
+		}
 		
 		&:hover {
 			.hero__two__hover {
@@ -156,6 +300,13 @@
 			top: -17px;
 			width: 290%;
 			z-index: 50;
+			
+			@media all and (max-width: $break-large) {				
+				animation: two 4s step-end infinite;
+				display: block;
+				visibility: hidden;
+				top: -11%;
+			}
 		}
 		
 		&__image {
@@ -228,5 +379,26 @@
 	}
 	50% {
 		transform: rotate(-7deg);
+	}
+}
+
+@keyframes five {
+	0% {
+		visibility: hidden;
+	}
+	25% {
+		visibility: visible;
+	}
+	50% {
+		visibility: hidden;
+	}
+}
+
+@keyframes two {
+	0% {
+		visibility: hidden;
+	}
+	75% {
+		visibility: visible;
 	}
 }

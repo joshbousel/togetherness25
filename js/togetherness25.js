@@ -1,11 +1,16 @@
 $(function() {
-	$('.hero__faqs').on('click',function(e){
+	$('.info__heart').on('mouseover',function(e){
 		e.preventDefault();
-		$('.faqs').addClass('faqs--active');
+		$('.info').addClass('info--active');
 	});
 	
-	$('.faqs__close').on('click',function(e){
+	$('.info__heart').on('click',function(e){
 		e.preventDefault();
-		$('.faqs').removeClass('faqs--active');
+		
+		if ($('.info').hasClass('info--active')) {
+			$('.info').removeClass('info--active');	
+		} else {
+			$('.info').addClass('info--active');	
+		}
 	});
 });
