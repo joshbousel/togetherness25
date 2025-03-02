@@ -24,6 +24,10 @@
 	&--active {
 		background: rgba(24,27,33,.95);
 		
+		@media all and (max-width: $break-large) {
+			background: linear-gradient(0deg, rgba(13,13,13,1) 95%, rgba(13,13,13,0) 100%);
+		}
+		
 		.info__content {
 			max-height: 500px;
 		}
@@ -61,6 +65,7 @@
 			width: 90%;
 			
 			@media all and (max-width: $break-large) {
+				margin: 35px auto 0;
 				max-width: 500px;
 				width: 100%;
 			}
@@ -78,7 +83,7 @@
 		width: 17%;
 		
 		@media all and (max-width: $break-large) {
-			width: 85px;
+			width: 65px;
 		}
 		
 		&:hover {

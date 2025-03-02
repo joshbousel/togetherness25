@@ -1,18 +1,5 @@
 .hero {
-	aspect-ratio: 3/2.25;
-	margin: 0 auto;
-	max-height: 100%;
-	max-width: 100%;
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	
-	@media all and (max-width: $break-large) {
-		aspect-ratio: unset;
-		overflow: hidden;
-		transform: none;
-		width: 100%;
-	}
 	
 	&__background {
 		height: 100%;
@@ -35,16 +22,8 @@
 		
 		@media all and (max-width: $break-large) {
 			left: 9.39%;
-			top: 49%;
+			top: 71%;
 			width: 24%;
-		}
-		
-		@media all and (max-width: $break-medium) {
-			top: 39%;
-		}
-		
-		@media all and (max-width: $break-small) {
-			top: 35%;
 		}
 	}
 	
@@ -64,16 +43,8 @@
 		
 		@media all and (max-width: $break-large) {
 			left: 52%;
-			top: 29%;
+			top: 39%;
 			width: 18%;
-		}
-		
-		@media all and (max-width: $break-medium) {
-			top: 24%
-		}
-		
-		@media all and (max-width: $break-small) {
-			top: 20.3%;
 		}
 		
 		&:hover {
@@ -93,11 +64,8 @@
 			@media all and (max-width: $break-large) {
 				animation: five 4s step-end infinite;
 				display: block;
+				top: 1%;
 				visibility: hidden;
-			}
-			
-			@media all and (max-width: $break-small) {
-				top: 3.5%;
 			}
 		}
 		
@@ -118,16 +86,8 @@
 		
 		@media all and (max-width: $break-large) {
 			left: 61.8%;
-			top: 48.89%;
+			top: 69.89%;
 			width: 32%;
-		}
-		
-		@media all and (max-width: $break-medium) {
-			top: 39.89%;
-		}
-		
-		@media all and (max-width: $break-small) {
-			top: 34.89%;
 		}
 	}
 	
@@ -138,8 +98,8 @@
 		width: 12.39%;
 		
 		@media all and (max-width: $break-large) {
-			left: 82%;
-			top: 4%;
+			left: 83%;
+			top: 6%;
 		}
 		
 		&:hover {
@@ -175,7 +135,7 @@
 			
 			@media all and (max-width: $break-large) {
 				left: 6%;
-				top: 4.1%;
+				top: 9.1%;
 				width: 9.5%;
 			}
 			
@@ -208,7 +168,7 @@
 			
 			@media all and (max-width: $break-large) {
 				left: 4%;
-				top: 13%;
+				top: 25%;
 				width: 7%;
 			}
 		}
@@ -222,7 +182,7 @@
 			
 			@media all and (max-width: $break-large) {
 				left: 21%;
-				top: 2%;
+				top: 3%;
 			}
 		}
 		
@@ -234,8 +194,8 @@
 			width: 3.74%;
 			
 			@media all and (max-width: $break-large) {
-				left: 74%;
-				top: 2%;
+				left: 75%;
+				top: 3%;
 			}
 		}
 		
@@ -247,8 +207,8 @@
 			width: 3.2%;
 			
 			@media all and (max-width: $break-large) {
-				left: 88%;
-				top: 13%;
+				left: 90%;
+				top: 25%;
 				width: 5%;
 			}
 		}
@@ -275,16 +235,8 @@
 		
 		@media all and (max-width: $break-large) {
 			left: 40%;
-			top: 30.3%;
+			top: 40.3%;
 			width: 12%;
-		}
-		
-		@media all and (max-width: $break-medium) {
-			top: 25.3%;
-		}
-		
-		@media all and (max-width: $break-small) {
-			top: 21.3%;
 		}
 		
 		&:hover {
