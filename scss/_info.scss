@@ -11,6 +11,7 @@
 	transform: translate(-50%, 0%);
 	transition: $default-transition;
 	width: 80%;
+	z-index: 3;
 	
 	@media all and (max-width: $break-large) {
 		background: linear-gradient(0deg, rgba(13,13,13,1) 95%, rgba(13,13,13,0) 100%);

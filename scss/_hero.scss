@@ -251,7 +251,7 @@
 			position: absolute;
 			top: -17px;
 			width: 290%;
-			z-index: 50;
+			z-index: 2;
 			
 			@media all and (max-width: $break-large) {				
 				animation: two 4s step-end infinite;
