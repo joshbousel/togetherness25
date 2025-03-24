@@ -1,5 +1,9 @@
 <?php
 
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
+
 if ($_SERVER['HTTP_HOST'] == 'dev.togetherness25.com') {	
 	require ('/var/www/vhosts/bousel.com/dev.togetherness25.com/php/vars-dev.php');
 } else {
@@ -50,6 +54,8 @@ function buildPage($path) {
 	
 	if ($page == '') {
 		include('php/home.php');
+	} elseif ($page == 'rsvp') {
+		include('php/rsvp.php');
 	}
 	
 	include('php/footer.php');
