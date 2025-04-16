@@ -1,3 +1,8 @@
 RewriteEngine on
 
+RewriteRule ^explore /index.php?path=explore
+RewriteRule ^faqs /index.php?path=faqs
+RewriteRule ^partytime /index.php?path=partytime
+RewriteRule ^playtime /index.php?path=playtime
 RewriteRule ^rsvp /index.php?path=rsvp
+RewriteRule ^stay /index.php?path=stay

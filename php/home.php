@@ -25,16 +25,4 @@
 					<img src="/images/25-years.png" alt="25 Years" class="hero__five__hover">
 				</div>
 			</div>
-			<div class="info">
-				<div class="info__content">
-					<img src="/images/wait-what-is-this.png" alt="Wait, what is this?" class="info__content__title">
-					<p>Technically, this year marks 25 years of the two of us having partnered up. But really, this is about all of us! We may have hooked up with you since then, or maybe you’ve been with us for much longer. In any case — if, like us, you were just looking for an excuse to get together IRL and dance in a pre-fab box in the middle of nowhere, then LET THIS BE IT.</p>
-				</div>
-				<div class="info__heart">
-					<img src="/images/heart.png" alt="More Info">
-					<div class="info__heart__hover">
-						<img src="/images/heart-hover.png" alt="More Info">
-					</div>
-				</div>
-			</div>
 		</main>

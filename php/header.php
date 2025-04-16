@@ -22,4 +22,4 @@
 		<script src="js/jquery.js" type="text/javascript"></script>
 		<script src="js/togetherness25.js" type="text/javascript"></script>
 	</head>
-	<body>
+	<body<?php if ($bodyClass != "") { echo(" class=\"$bodyClass\""); } ?>>

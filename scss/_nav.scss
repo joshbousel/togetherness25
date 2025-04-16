@@ -1,0 +1,145 @@
+.nav {
+	background-color: $peach;
+	height: 0;
+	left: 0;
+	overflow: visible;
+	position: absolute;
+	top: 0;
+	transition: $default-transition;
+	width: 100%;
+	z-index: 100;
+	
+	&__content {
+		height: 0;
+		left: 35%;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 20%;
+		transition: opacity .2s ease-out;
+		transition-delay: .1s;
+		
+		@media all and (max-width: $break-large) {
+			left: 25%;
+			top: 15%
+		}
+		
+		@media all and (max-width: $break-medium) {
+			left: 15%;
+			top: 7%
+		}
+		
+		&__item {
+			display: block;
+			margin: 0 0 35px; 
+			position: relative;
+			transition: $default-transition;
+			width: 300px;
+			
+			&:hover {
+				opacity: .65;
+			}
+			
+			&__icon {
+				width: 45px;
+				
+				&--indent {
+					margin: 0 0 0 8px;
+					width: 30px;
+				}
+			}
+			
+			&__text {
+				color: #fff;
+				font-family: $font-courier-prime;
+				font-size: 1rem;
+				font-weight: normal;
+				left: 70px;
+				line-height: 1rem;
+				position: absolute;
+				text-decoration: none;
+				top: 13px;
+				-webkit-font-smoothing: antialiased;
+				
+				span {
+					display: block;
+					font-size: 0.75rem;
+				}
+			}
+		}
+	}
+	
+	&__icon {
+		cursor: pointer;
+		height: 25px;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 30px;
+		
+		@media all and (max-width: $break-large) {
+			right: 15px;
+			top: 15px;
+		}
+		
+		&__line {
+			display: block;
+			position: absolute;
+			right: 0;
+			width:  30px;
+			
+			&:first-of-type {
+				top: 0;
+				transition-delay: 0s ,.2s;
+				transition-duration: .2s, .2s;
+				transition-property: transform, top;
+				transition-timing-function: ease-out;
+			}
+			
+			&:nth-of-type(2) {
+				top: 8px;
+				transition-delay: .1s;
+				transition: $default-transition;
+			}
+			
+			&:last-of-type {
+				top: 16px;
+				transition-delay: 0s ,.2s;
+				transition-duration: .2s, .2s;
+				transition-property: transform, top;
+				transition-timing-function: ease-out;
+			}
+		}
+	}
+	
+	&--open {
+		height: 100%;
+		
+		.nav {
+			&__content {
+				height: auto;
+				opacity: 1;
+			}
+			
+			&__icon {
+				&__line {
+					&:first-of-type {
+						top: 8px;
+						transform: rotate(-45deg);
+						transition-property: top, transform;
+					}
+					
+					&:nth-of-type(2) {
+						opacity: 0;
+					}
+					
+					&:last-of-type {
+						top: 8px;
+						transform: rotate(45deg);
+						transition-property: top, transform;
+					}
+				}
+			}
+		}
+	}
+}

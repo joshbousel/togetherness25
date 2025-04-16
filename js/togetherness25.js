@@ -15,6 +15,17 @@ $(function() {
 		}
 	});
 	
+	// Navigation
+	$('body').on('click','.nav__icon',function(e){
+		let $nav = $('.nav');
+		
+		if ($nav.hasClass('nav--open')) {
+			$nav.removeClass('nav--open');
+		} else {
+			$nav.addClass('nav--open');
+		}
+	});
+	
 	// Login/Logout Guest
 	var params = extractParams(window.location.search.substring(1));
 	
@@ -34,7 +45,7 @@ $(function() {
 					data: { login: 'true' }
 				})
 				.done(function(content) {
-					$('body').html(content);
+					$('main').html(content);
 				});
 			}
 		});
@@ -166,7 +177,7 @@ $(function() {
 				data: { refresh: 'true' }
 			})
 			.done(function(content) {
-				$('body').html(content);
+				$('main').html(content);
 			});
 		});
 	}

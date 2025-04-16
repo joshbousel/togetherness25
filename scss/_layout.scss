@@ -1,41 +1,11 @@
-body, html {
+html {
+	background-color: $purple-light;
 	height: 100%;
 	margin: 0;
-	overflow: hidden;
 	padding: 0;
 	width: 100%;
-	
-	@media all and (max-width: $break-large) {
-		height: auto;
-		overflow: unset;
-	}
-}
-
-body {
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,53,70,1) 100%);
-	
-	@media all and (max-width: $break-large) {
-		background: rgba(13,13,13,1);
-	}
 }
 
 .hidden {
 	display: none;
-}
-
-main {
-	aspect-ratio: 3/2.25;
-	margin: 0 auto;
-	max-height: 100%;
-	max-width: 100%;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	
-	@media all and (max-width: $break-large) {
-		aspect-ratio: unset;
-		overflow: hidden;
-		transform: none;
-		width: 100%;
-	}
 }

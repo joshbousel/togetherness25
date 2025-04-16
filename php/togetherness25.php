@@ -48,16 +48,34 @@ function buildPage($path) {
 	
 	$path = explode('/',$path);
 	$page = $path[0];
+	$bodyClass = "";
+	
+	if ($page == '') {
+		$bodyClass = "home";
+	}
 	
 	// Build the page
 	include('header.php');
 	
 	if ($page == '') {
 		include('php/home.php');
+	} elseif ($page == 'explore') {
+		include('php/explore.php');
+	} elseif ($page == 'faqs') {
+		include('php/faqs.php');
+	} elseif ($page == 'partytime') {
+		include('php/partytime.php');
+	} elseif ($page == 'playtime') {
+		include('php/playtime.php');
 	} elseif ($page == 'rsvp') {
+		echo('<main class="page">');
 		include('php/rsvp.php');
+		echo('</main>');
+	} elseif ($page == 'stay') {
+		include('php/stay.php');
 	}
 	
+	include('php/nav.php');
 	include('php/footer.php');
 }
 

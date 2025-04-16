@@ -2,7 +2,12 @@
 
 require("php/togetherness25.php");
 
-$path = $_GET['path'];
+if (isset($_GET['path'])) {
+	$path = $_GET['path'];
+} else {
+	$path = "/";
+}
+
 buildPage($path);
 
 ?>

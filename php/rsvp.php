@@ -39,29 +39,35 @@ while($row = mysqli_fetch_array($repliesResult)) {
 	}
 } ?>
 
-<?php if ($guest == "") { ?>
-	<h1>Not Logged In</h1>
-<?php } else { ?>
-	<h1>RSVP</h1>
-	<div class="rsvp__container">
-		<?php include('rsvp-actions.php'); ?>
-	</div>
-	<?php if ($yesRSVP != "") { ?>
-		<h2>Yes RSVP</h2>
-		<ul>
-			<?php echo($yesRSVP); ?>
-		</ul>
-	<?php }
-	if ($noRSVP != "") { ?>
-		<h2>No RSVP</h2>
-		<ul>
-			<?php echo($noRSVP); ?>
-		</ul>
-	<?php }
-	if ($emptyRSVP != "") { ?>
-		<h2>Empty RSVP</h2>
-		<ul>
-			<?php echo($emptyRSVP); ?>
-		</ul>
-	<?php } 
-}?>
+			<div class="page__icon">
+				<img src="/images/heart-full.png" alt="Heart">
+			</div>
+			<div class="page__content">
+				<h1>RSVP</h1>
+				<?php if ($guest == "") { ?>
+					<h1>Not Logged In</h1>
+				<?php } else { ?>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="rsvp__container">
+						<?php include('rsvp-actions.php'); ?>
+					</div>
+					<?php if ($yesRSVP != "") { ?>
+						<h2>Party Posse</h2>
+						<ul>
+							<?php echo($yesRSVP); ?>
+						</ul>
+					<?php }
+					if ($noRSVP != "") { ?>
+						<h2>Regrets</h2>
+						<ul>
+							<?php echo($noRSVP); ?>
+						</ul>
+					<?php }
+					if ($emptyRSVP != "") { ?>
+						<h2>Waiting Room</h2>
+						<ul>
+							<?php echo($emptyRSVP); ?>
+						</ul>
+					<?php } 
+				}?>
+			</div>
