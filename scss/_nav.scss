@@ -3,7 +3,7 @@
 	height: 0;
 	left: 0;
 	overflow: visible;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	transition: $default-transition;
 	width: 100%;
@@ -31,7 +31,7 @@
 		
 		&__item {
 			display: block;
-			margin: 0 0 35px; 
+			margin: 0 0 30px; 
 			position: relative;
 			transition: $default-transition;
 			width: 300px;
@@ -40,8 +40,21 @@
 				opacity: .65;
 			}
 			
+			&:first-of-type {
+				margin: 0 0 22px; 
+				
+				.nav__content__item__text {
+					top: 25px;
+				}
+			}
+			
 			&__icon {
 				width: 45px;
+				
+				&--home {
+					margin: 0 0 0 50px;
+					width: 75px;
+				}
 				
 				&--indent {
 					margin: 0 0 0 8px;
@@ -70,11 +83,14 @@
 	}
 	
 	&__icon {
+		background-color: $purple-light;
 		cursor: pointer;
-		height: 25px;
+		height: 22px;
 		position: absolute;
 		right: 20px;
 		top: 20px;
+		transition: background-color 0s;
+		transition-delay: .3s;
 		width: 30px;
 		
 		@media all and (max-width: $break-large) {
@@ -122,6 +138,9 @@
 			}
 			
 			&__icon {
+				background-color: rgba(0,0,0,0);
+				transition-delay: 0s;
+				
 				&__line {
 					&:first-of-type {
 						top: 8px;

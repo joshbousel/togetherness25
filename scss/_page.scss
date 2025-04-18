@@ -1,26 +1,93 @@
 .page {
+	background-color: $purple-light;
 	display: flex;
 	flex-direction: row;
-	gap: 65px;
-	padding: 3% 0 0 10%;
+	gap: 50px;
+	min-height: calc(100% - 75px);
+	padding: 75px 0 0 10%;
+	
+	@media all and (max-width: $break-large) {
+		flex-direction: column;
+		padding: 25px 25px 50px;
+	}
+	
+	@media all and (max-width: $break-small) {
+		gap: 35px;
+		min-height: calc(100% - 50px);
+		padding: 15px 15px 35px;
+	}
 	
 	&__content {
 		max-width: 550px;
 		padding: 175px 0 150px;
 		width: 100%;
 		
+		@media all and (max-width: $break-large) {
+			padding: 0 0 0 100px;
+		}
+		
+		@media all and (max-width: $break-medium) {
+			padding: 0 25px 0 50px;
+			width: calc(100% - 75px);
+		}
+		
+		@media all and (max-width: $break-small) {
+			padding: 0 15px 0 25px;
+			width: calc(100% - 40px);
+		}
+		
 		iframe {
 			border: 0;
 			height: 550px;
+			margin: 0 0 25px;
 			width: 100%;
 		}
 	}
 	
 	&__icon {
-		flex: 0 0 150px;
+		flex: 0 0 200px;
+		
+		@media all and (max-width: $break-large) {
+			flex: 0 0 auto;
+		}
+		
 		
 		img {
-			width: 100%;
+			position: fixed;
+			width: 200px;
+			
+			@media all and (max-width: $break-large) {
+				position: relative;
+			}
+			
+			@media all and (max-width: $break-medium) {
+				width: 125px;
+			}
+			
+			@media all and (max-width: $break-small) {
+				width: 100px;
+			}
+		}
+		
+		&--indent {
+			img {
+				margin: 0 0 0 45px;
+				width: 135px;
+				
+				@media all and (max-width: $break-large) {
+					margin: 15px 0 0 15px;
+					width: 115px;
+				}
+				
+				@media all and (max-width: $break-medium) {
+					width: 95px;
+				}
+				
+				@media all and (max-width: $break-small) {
+					margin: 0;
+					width: 75px;
+				}
+			}
 		}
 	}
 }

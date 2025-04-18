@@ -163,22 +163,29 @@ $(function() {
 	}
 	
 	function updateRSVP(data) {
-		$.ajax({
-			async: true,
-			method: "POST",
-			url: "/php/rsvp-actions.php",
-			data: data
-		})
-		.done(function(content) {
+		$('.rsvp__container').addClass('rsvp__container--leave');
+		
+		setTimeout(() => {
 			$.ajax({
 				async: true,
 				method: "POST",
-				url: "/php/rsvp.php",
-				data: { refresh: 'true' }
+				url: "/php/rsvp-actions.php",
+				data: data
 			})
 			.done(function(content) {
-				$('main').html(content);
+				$.ajax({
+					async: true,
+					method: "POST",
+					url: "/php/rsvp.php",
+					data: { refresh: 'true' }
+				})
+				.done(function(content) {
+					$('main').html(content);
+					setTimeout(() => {
+						$('.rsvp__container').removeClass('rsvp__container--enter');
+					}, 25);
+				});
 			});
-		});
+		}, 300);
 	}
 });

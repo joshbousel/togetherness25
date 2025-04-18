@@ -1,0 +1,28 @@
+.btn {
+	background-color: $peach;
+	border-radius: 8px;
+	color: #fff;
+	display: inline-block;
+	font-family: $font-source-sans;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1rem;
+	padding: 11px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: $default-transition;
+	-webkit-font-smoothing: antialiased;
+	
+	&:hover {
+		background-color: #F68865;
+	}
+	
+	&--secondary {
+		background-color: #8b98b4;
+		
+		&:hover {
+			background-color: #7887a7;
+		}
+	}
+}

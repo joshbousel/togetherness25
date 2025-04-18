@@ -1,14 +1,14 @@
 a {
-	color: #f59577;
+	color: #2a4272;
 	font-family: $font-source-sans;
-	font-weight: bold;
+	font-weight: 400;
 }
 
-fieldset, h2, h3, h4, label, li, p {
+fieldset, h3, h4, label, li, p {
 	color: $blue-dark;
 	font-family: $font-source-sans;
 	font-weight: 300;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1, h2 {
@@ -25,11 +25,30 @@ h1 {
 	font-size: 2.1875rem;
 	line-height: 2.1875rem;
 	margin: 0 0 20px;
+	
+	span {
+		display: block;
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
 }
 
 h2 {
 	font-size: 1.5rem;
 	line-height: 1.5rem;
-	margin: 0 0 20px;
+	margin: 10px 0 5px;
 }
 
+h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1rem;
+	margin: 0 0 15px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+strong {
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+}

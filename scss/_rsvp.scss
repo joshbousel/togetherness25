@@ -1,0 +1,158 @@
+.rsvp {
+	background-color: rgba(255,255,255,.35);
+	border-radius: 8px;
+	margin: 0 0 50px;
+	overflow: hidden;
+	padding: 30px 35px;
+	transition: $default-transition;
+	
+	&__container {
+		left: 0;
+		position: relative;
+		transition: 0.15s all ease-out;;
+		
+		&--enter {
+			left: 550px;
+		}
+		
+		&__fields {
+			align-items: flex-end;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 20px;
+			margin: 20px 0 0;
+			
+			&__field {
+				color: $blue-dark;
+				font-family: $font-source-sans;
+				font-weight: 600;
+				-webkit-font-smoothing: antialiased;
+				
+				&--full {
+					flex: 0 0 100%;
+				}
+			}
+		}
+		
+		fieldset {
+			border: 0;
+			margin: 10px 0 25px;
+			padding: 0;
+			
+			&:last-of-type {
+				margin: 5px 0 0;
+			}
+			
+			[type=radio] {
+				appearance: none;
+				background: #fff;
+				border: none;
+				border-radius: 50%;
+				margin: 0 5px 0 0;
+				padding: 10px;
+				position: relative;
+				vertical-align: text-top;
+				
+				&:checked::before {
+					background-color: #8a98b4;
+					border-radius: 50%;
+					content: "";
+					height: 14px;
+					left: 3px;
+					position: absolute;
+					top: 3px;
+					width: 14px;
+				}
+			}
+			
+			legend {
+				font-weight: 500;
+				margin: 0 0 5px;
+				
+				span {
+					display: block;
+					font-weight: 300;
+					-webkit-font-smoothing: subpixel-antialiased;
+				}
+			}
+			
+			.rsvp__container__fields {
+				margin: 5px 0 0;
+				
+				&__field {
+					font-weight: 400;
+				}
+			}
+		}
+		
+		h2 {
+			margin: 0 0 5px;
+		}
+		
+		&--leave {
+			left: -550px;
+		}
+		
+		p {
+			&:last-of-type {
+				margin: 0;
+			}
+		}
+		
+		select {
+			appearance: none;
+			background-image: url('/images/select-arrow.png');
+			background-position: 39px 15px;
+			background-repeat: no-repeat;
+			background-size: 14px;
+			color: $blue-dark;
+			border: 0;
+			border-radius: 4px;
+			display: block;
+			font-family: $font-source-sans;
+			font-size: 1rem;
+			font-weight: 600;
+			line-height: 1rem;
+			padding: 11px 40px 11px 15px;
+			text-indent: 1px;
+			-webkit-font-smoothing: antialiased;
+		}
+		
+		textarea {
+			color: $blue-dark;
+			border: 0;
+			border-radius: 4px;
+			display: block;
+			font-family: $font-source-sans;
+			font-size: 1rem;
+			font-weight: 400;
+			height: 75px;
+			line-height: 1.25rem;
+			outline: 0;
+			padding: 10px;
+			width: calc(100% - 20px);
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+
+	&-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 15px;
+		margin: 15px 0 0;
+		padding: 0;
+		
+		li {
+			flex: 0 0 calc(50% - 15px);
+			margin: 0;
+			list-style: none;
+		}
+		
+		&__note {
+			display: block;
+			margin: 3px 0 0;
+		}
+	}
+}
