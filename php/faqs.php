@@ -21,7 +21,7 @@
 					<p>Of course! There’s an entire <a href="/playtime">extended weekend</a> of stuff planned from Friday through Monday, plus downtimes to just chill too.</p>
 					<hr>
 					<h3>Where should I stay?</h3>
-					<p>We recommend staying in Durham since everything except the party will take place there. We have <a href="/stay">room blocks</a> at couple of hotels along with recommended Airbnbs to help you out. If there are no more hotel rooms left if our blocks, let us know and we’ll try to add more.</p>
+					<p>We recommend staying in Durham since everything except the party will take place there. We have <a href="/stay">room blocks</a> at a couple of hotels along with recommended Airbnbs to help you out. If there are no more hotel rooms left in our blocks, let us know and we’ll try to add more.</p>
 					<hr>
 					<h3>Do I need a car?</h3>
 					<p>It would definitely be helpful, but not totally necessary. We can help arrange carpools and rideshares are plentiful in the area. We’ll also have a bus going to and from the party leaving from the Aloft Downtown Durham.</p>

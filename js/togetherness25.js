@@ -97,7 +97,12 @@ $(function() {
 	$('body').on('click','.rsvp__container_note',function(e){
 		e.preventDefault();
 		let note = $('textarea[name="note"]').val();
-		let data = { action: 'save', note: note };
+		
+		if ($(this).hasClass('btn--secondary') || note == '') {
+			note = 'None';
+		}
+		
+		let data = { action: 'save', note: note };		
 		updateRSVP(data);
 	});
 	

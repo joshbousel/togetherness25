@@ -148,6 +148,13 @@
 			flex: 0 0 calc(50% - 15px);
 			margin: 0;
 			list-style: none;
+			
+			@media all and (max-width: $break-medium) {
+				font-size: 1.15rem;
+				line-height: 1.65rem;
+				font-weight: 400;
+				-webkit-font-smoothing: antialiased;
+			}
 		}
 		
 		&__note {

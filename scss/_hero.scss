@@ -7,8 +7,8 @@
 		position: relative;
 		width: 100%;
 		
-		@media all and (max-width: $break-large) {
-			margin: -5% 0 0 -40%;
+		@media all and (max-width: $break-medium) {
+			margin: -9% 0 0 -40%;
 			position: relative;
 			width: 187%;
 		}
@@ -20,10 +20,30 @@
 		top: 69%;
 		width: 13.37%;
 		
-		@media all and (max-width: $break-large) {
+		@media all and (max-width: $break-medium) {
 			left: 9.39%;
-			top: 73%;
+			top: 74%;
 			width: 24%;
+		}
+		
+		&:hover {
+			img {				
+				&:last-of-type {
+					display: block;
+				}
+			}
+		}
+		
+		img {
+			width: 100%;
+			
+			&:last-of-type {
+				display: none;
+				left: -23%;
+				position: absolute;
+				top: 13%;
+				width: 30%;
+			}
 		}
 	}
 	
@@ -41,9 +61,9 @@
 		top: 44.53%;
 		width: 13.05%;
 		
-		@media all and (max-width: $break-large) {
+		@media all and (max-width: $break-medium) {
 			left: 52%;
-			top: 45%;
+			top: 41%;
 			width: 18%;
 		}
 		
@@ -61,7 +81,7 @@
 			top: 4px;
 			width: 206%;
 			
-			@media all and (max-width: $break-large) {
+			@media all and (max-width: $break-medium) {
 				animation: five 4s step-end infinite;
 				display: block;
 				top: 1%;
@@ -74,6 +94,16 @@
 		}
 	}
 	
+	&__gradient {
+		background: linear-gradient(180deg, rgba(63, 69, 85, 0.00) 0%, #0D0B0C 100%);
+		bottom: 0;
+		content: '';
+		height: 8%;
+		left: 0;
+		position: absolute;
+		width: 100%;
+	}
+	
 	img {
 		height: auto;
 	}
@@ -84,22 +114,10 @@
 		top: 65.89%;
 		width: 19%;
 		
-		@media all and (max-width: $break-large) {
-			left: 61.8%;
-			top: 72.89%;
+		@media all and (max-width: $break-medium) {
+			left: 63.8%;
+			top: 71.89%;
 			width: 32%;
-		}
-	}
-	
-	&__moon {
-		left: 76.67%;
-		position: absolute;
-		top: 12.06%;
-		width: 12.39%;
-		
-		@media all and (max-width: $break-large) {
-			left: 83%;
-			top: 16%;
 		}
 		
 		&:hover {
@@ -111,14 +129,83 @@
 		}
 		
 		img {
-			position: absolute;
 			width: 100%;
 			
 			&:last-of-type {
 				display: none;
-				left: 6px;
-				position: relative;
-				top: 7px;
+				left: -20%;
+				position: absolute;
+				top: 42%;
+				width: 19%;
+			}
+		}
+	}
+	
+	&__moon {
+		left: 76.67%;
+		position: absolute;
+		top: 12.06%;
+		width: 12.39%;
+		
+		@media all and (max-width: $break-medium) {
+			left: 81%;
+			top: 12%;
+		}
+		
+		&:hover {
+			img {
+				&:last-of-type {
+					display: block;
+				}
+			}
+		}
+		
+		img {
+			width: 100%;
+			
+			&:last-of-type {
+				display: none;
+				left: -2%;
+				position: absolute;
+				top: -20%;
+				width: 128%;
+			}
+		}
+	}
+	
+	&__rsvp {
+		left: 39%;
+		position: absolute;
+		top: 88%;
+		width: 21.1%;
+		
+		@media all and (max-width: $break-medium) {
+			left: 32%;
+			top: 99%;
+			width: 37.1%;
+		}
+		
+		&:hover {
+			img {
+				&:first-of-type {
+					display: block;
+					
+					@media all and (max-width: $break-medium) {
+						display: none;
+					}
+				}
+			}
+		}
+		
+		img {
+			position: relative;
+			width: 100%;
+			
+			&:first-of-type {
+				display: none;
+				left: 1%;
+				position: absolute;
+				top: 2%;
 			}
 		}
 	}
@@ -128,33 +215,35 @@
 				
 		&--left-big {
 			animation: star-left-big .85s step-end infinite;
+			display: block;
 			left: 9.16%;
 			position: absolute;
 			top: 14.1%;
 			width: 9.77%;
 			
-			@media all and (max-width: $break-large) {
-				left: 6%;
-				top: 19.1%;
+			@media all and (max-width: $break-medium) {
+				left: 8%;
+				top: 12.1%;
 				width: 9.5%;
 			}
 			
-			// &:hover {
-			// 	img {
-			// 		&:last-of-type {
-			// 			display: block;
-			// 		}
-			// 	}
-			// }
+			&:hover {
+				img {
+					&:last-of-type {
+						display: block;
+					}
+				}
+			}
 			
 			img {
 				width: 100%;
 				
 				&:last-of-type {
 					display: none;
-					left: 6px;
-					position: relative;
-					top: -37px;
+					left: -57%;
+					position: absolute;
+					top: -25%;
+					width: 255%;
 				}
 			}
 		}
@@ -166,9 +255,9 @@
 			top: 37.89%;
 			width: 5.01%;
 			
-			@media all and (max-width: $break-large) {
-				left: 4%;
-				top: 35%;
+			@media all and (max-width: $break-medium) {
+				left: 5%;
+				top: 29%;
 				width: 7%;
 			}
 		}
@@ -180,9 +269,9 @@
 			top: 7.66%;
 			width: 4.4%;
 			
-			@media all and (max-width: $break-large) {
+			@media all and (max-width: $break-medium) {
 				left: 21%;
-				top: 13%;
+				top: 6%;
 			}
 		}
 		
@@ -193,9 +282,9 @@
 			top: 6.54%;
 			width: 3.74%;
 			
-			@media all and (max-width: $break-large) {
-				left: 75%;
-				top: 13%;
+			@media all and (max-width: $break-medium) {
+				left: 73%;
+				top: 8%;
 			}
 		}
 		
@@ -206,9 +295,9 @@
 			top: 38.08%;
 			width: 3.2%;
 			
-			@media all and (max-width: $break-large) {
-				left: 90%;
-				top: 35%;
+			@media all and (max-width: $break-medium) {
+				left: 89%;
+				top: 27%;
 				width: 5%;
 			}
 		}
@@ -220,9 +309,9 @@
 		top: 15%;
 		width: 48%;
 		
-		@media all and (max-width: $break-large) {
+		@media all and (max-width: $break-medium) {
 			left: 7%;
-			top: 12%;
+			top: 10%;
 			width: 85%;
 		}
 	}
@@ -233,9 +322,9 @@
 		top: 46.85%;
 		width: 8.87%;
 		
-		@media all and (max-width: $break-large) {
+		@media all and (max-width: $break-medium) {
 			left: 40%;
-			top: 46.3%;
+			top: 42.3%;
 			width: 12%;
 		}
 		
@@ -253,7 +342,7 @@
 			width: 290%;
 			z-index: 2;
 			
-			@media all and (max-width: $break-large) {				
+			@media all and (max-width: $break-medium) {				
 				animation: two 4s step-end infinite;
 				display: block;
 				visibility: hidden;

@@ -1,13 +1,12 @@
 .home {
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,53,70,1) 100%);
+	background: #0D0B0C;
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
 	
-	@media all and (max-width: $break-large) {
-		background: rgba(13,13,13,1);
+	@media all and (max-width: $break-medium) {
 		height: auto;
 		overflow: unset;
 	}
@@ -18,12 +17,11 @@
 		max-height: 100%;
 		max-width: 100%;
 		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
 		
-		@media all and (max-width: $break-large) {
+		@media all and (max-width: $break-medium) {
 			aspect-ratio: unset;
 			overflow: hidden;
+			padding: 0 0 65px;
 			transform: none;
 			width: 100%;
 		}

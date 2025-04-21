@@ -25,13 +25,7 @@ if (isset($_POST['action'])) {
 			$set = "carpool = '$carpool'";
 		} elseif (isset($_POST['note'])) {
 			$note = $_POST['note'];
-			
-			if ($note == "") {
-				$note = "None";
-			} else {
-				$note = addslashes($note);
-			}
-			
+			$note = addslashes($note);
 			$set = "note = '$note'";
 		}
 		
@@ -83,9 +77,7 @@ $transportation = $row[5];
 $carpool = $row[6];
 $note = $row[7];
 
-if ($note == "None") {
-	$note = "";
-} elseif ($note != "") {
+if ($note != "") {
 	$note = stripslashes($note);
 } ?>
 
@@ -150,7 +142,7 @@ if ($note == "None") {
 	</fieldset>
 	<fieldset name="note">
 		<legend>If you’d like to leave a note, this is your space<span>This will display to all guests</span></legend>
-		<textarea name="note"><?php echo($note); ?></textarea>
+		<textarea name="note"><?php if ($note != "None") { echo($note); } ?></textarea>
 	</fieldset>
 	<fieldset>
 		<div class="rsvp__container__fields">

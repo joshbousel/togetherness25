@@ -46,9 +46,26 @@ h3 {
 	margin: 0 0 15px;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
+	
+	@media all and (max-width: $break-medium) {
+		font-size: 1.15rem;
+		line-height: 1.15rem;
+	}
 }
 
 strong {
 	font-weight: 600;
 	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	
+	@media all and (max-width: $break-medium) {
+		font-size: 1.15rem;
+		line-height: 1.65rem;
+		font-weight: 400;
+		-webkit-font-smoothing: antialiased;
+	}
 }
