@@ -3,7 +3,7 @@
 				<img src="/images/star-playtime.png" alt="Star">
 			</div>
 			<div class="page__content">
-				<h1>Playtime</h1>
+				<h1>Let's play</h1>
 				<p>We’re so excited to see y’all and hope to spend more time with everyone outside of the party too. We have some scheduled meet-ups you can join up with, and there’s downtime to just hang around too.</p>
 				<h2>Patio Karaoke + Pizza</h2>
 				<h3>Fri Oct 10 @ 5:00pm</h3>

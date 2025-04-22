@@ -6,23 +6,23 @@
 			</div>
 			<div class="nav__content">
 				<a class="nav__content__item" href="/partytime">
-					<img class="nav__content__item__icon" src="/images/star-playtime.png" alt="Star">
+					<img class="nav__content__item__icon" src="/images/25.png" alt="25">
 					<span class="nav__content__item__text">Partytime <span>(excellent)</span></span>
 				</a>
 				<a class="nav__content__item" href="/stay">
 					<img class="nav__content__item__icon" src="/images/moon.png" alt="Moon">
 					<span class="nav__content__item__text">Stay a while</span>
 				</a>
-				<a class="nav__content__item" href="/playtime">
-					<img class="nav__content__item__icon" src="/images/star-playtime-nav.png" alt="Star">
-					<span class="nav__content__item__text">Playtime</span>
+				<a class="nav__content__item" href="/play">
+					<img class="nav__content__item__icon" src="/images/star-playtime.png" alt="Star">
+					<span class="nav__content__item__text">Let's Play</span>
 				</a>
 				<a class="nav__content__item" href="/explore">
 					<img class="nav__content__item__icon nav__content__item__icon--indent" src="/images/marker.png" alt="Marker">
 					<span class="nav__content__item__text">Explore</span>
 				</a>
 				<a class="nav__content__item" href="/faqs">
-					<img class="nav__content__item__icon" src="/images/moon.png" alt="moon">
+					<img class="nav__content__item__icon" src="/images/heart-full.png" alt="Heart">
 					<span class="nav__content__item__text">FAQs</span>
 				</a>
 				<a class="nav__content__item" href="/rsvp">

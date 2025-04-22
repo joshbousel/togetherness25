@@ -1,6 +1,6 @@
 		<main class="page">
 			<div class="page__icon">
-				<img src="/images/moon.png" alt="Moon">
+				<img src="/images/heart-full.png" alt="Heart">
 			</div>
 			<div class="page__content">
 				<h1>FAQs</h1>
@@ -11,24 +11,27 @@
 					<h3>Can I bring the fam or a date?</h3>
 					<p>Yup, partners, children, and plus ones are all welcome.</p>
 					<hr>
+					<h3>There's someone else y'all know that would love to come, can I invite them?</h3>
+					<p>Most likely yes, but we ask that you pls. check in w/us first (there are capacity limits at the venue that we’ll have to take into consideration)</p>
+					<hr>
 					<h3>What should I wear?</h3>
-					<p>Whatever makes you feel comfortable and happy. This could be a good excuse to wear that thing you love that you never get to wear. If it helps, Kris will likely be wearing --- and Josh in casual cocktail attire with Adidas.</p>
+					<p>Whatever makes you feel comfortable and happy. This could be a good excuse to wear that thing you love that you never get to wear. Whatever feels festive to you!</p>
 					<hr>
 					<h3>Gifts?</h3>
-					<p>Your presence is a present!</p>
+					<p>Your presence is a present 🙂</p>
 					<hr>
 					<h3>Can we hang outside of the party?</h3>
-					<p>Of course! There’s an entire <a href="/playtime">extended weekend</a> of stuff planned from Friday through Monday, plus downtimes to just chill too.</p>
+					<p>Of course! We’re planning on setting up a few more official meet-ups throughout the weekend. Keep an eye on <a href="/play">Let’s play</a> for details.</p>
 					<hr>
 					<h3>Where should I stay?</h3>
-					<p>We recommend staying in Durham since everything except the party will take place there. We have <a href="/stay">room blocks</a> at a couple of hotels along with recommended Airbnbs to help you out. If there are no more hotel rooms left in our blocks, let us know and we’ll try to add more.</p>
+					<p>We recommend staying in Durham since everything except the party will take place there. Check  <a href="/stay">Stay a while</a> for hotel blocks and some Airbnb recommendations. If there are no more hotel rooms left in our blocks, let us know and we’ll see about adding add more.</p>
 					<hr>
 					<h3>Do I need a car?</h3>
-					<p>It would definitely be helpful, but not totally necessary. We can help arrange carpools and rideshares are plentiful in the area. We’ll also have a bus going to and from the party leaving from the Aloft Downtown Durham.</p>
-					<p>If you plan on taking a rideshare to the party, we highly recommend arranging a car service or carpool to get back. (Chances of getting an Uber or Lyft from Pittsboro back to Durham may get a little dicey in the evening.)</p>
+					<p>It would probably be more convenient, but not totally necessary. We can help arrange carpools to the party, and rideshares are usually plentiful in the area. We’ll also likely have a bus going to and from the party if there’s enough interest. Be sure to let us know when you <a href="/rsvp">RSVP</a> if this sounds like it might be for you!</p>
+					<p>If you plan on taking a rideshare to the party, we highly recommend arranging a car service or carpool to get back. (Getting an Uber or Lyft from Pittsboro back to Durham may be less reliable in the evening.)</p>
 					<hr>
 					<h3>What else should I do while I'm in North Carolina?</h3>
-					<p>If you have the vacay or free time, the fall is a great season to explore North Carolina. Check the <a href="/explore">Explore page</a> for things to do in and around Durham, and there’s plentiful parks, mountains, and beaches within a couple hours drive too.</p>
+					<p>If you have the extra time, the fall is a great season to explore North Carolina. Check <a href="/explore">Explore</a> for things to do in and around Durham. There’re plentiful parks, mountains, and beaches within a couple hours drive too.</p>
 				</div>
 			</div>
 		</main>

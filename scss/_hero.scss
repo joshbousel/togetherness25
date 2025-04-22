@@ -104,6 +104,38 @@
 		width: 100%;
 	}
 	
+	&__heart {
+		left: 46%;
+		position: absolute;
+		top: 82%;
+		width: 5%;
+		
+		@media all and (max-width: $break-medium) {
+			top: 89%;
+			width: 9%;
+		}
+		
+		&:hover {
+			.hero__heart__hover {
+				max-height: 100px;
+			}
+		}
+		
+		&__hover {
+			max-height: 0;
+			overflow: hidden;
+			pointer-events: none;
+			position: absolute;
+			top: 0;
+			transition: $default-transition;
+		}
+		
+		img {
+			position: relative;
+			width: 100%;
+		}
+	}
+	
 	img {
 		height: auto;
 	}
@@ -176,7 +208,7 @@
 	&__rsvp {
 		left: 39%;
 		position: absolute;
-		top: 88%;
+		top: 91%;
 		width: 21.1%;
 		
 		@media all and (max-width: $break-medium) {
@@ -189,10 +221,6 @@
 			img {
 				&:first-of-type {
 					display: block;
-					
-					@media all and (max-width: $break-medium) {
-						display: none;
-					}
 				}
 			}
 		}

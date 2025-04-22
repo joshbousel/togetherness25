@@ -1,6 +1,6 @@
 		<main class="page">
 			<div class="page__icon">
-				<img src="/images/star-playtime.png" alt="Star">
+				<img src="/images/25.png" alt="25">
 			</div>
 			<div class="page__content">
 				<h1>Partytime <span>(excellent)</span></h1>

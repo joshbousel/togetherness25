@@ -65,8 +65,8 @@ function buildPage($path) {
 		include('php/faqs.php');
 	} elseif ($page == 'partytime') {
 		include('php/partytime.php');
-	} elseif ($page == 'playtime') {
-		include('php/playtime.php');
+	} elseif ($page == 'play') {
+		include('php/play.php');
 	} elseif ($page == 'rsvp') {
 		echo('<main class="page">');
 		include('php/rsvp.php');
