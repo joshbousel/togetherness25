@@ -5,8 +5,11 @@
 				<img src="/images/menu-line.png" alt="Menu Line" class="nav__icon__line">
 			</div>
 			<div class="nav__content">
+				<a class="nav__content__item nav__content__item--home" href="/">
+					<span class="nav__content__item__text">Together-ness</span>
+				</a>
 				<a class="nav__content__item" href="/partytime">
-					<img class="nav__content__item__icon" src="/images/25.png" alt="25">
+					<img class="nav__content__item__icon nav__content__item__icon--party" src="/images/25.png" alt="25">
 					<span class="nav__content__item__text">Partytime <span>(excellent)</span></span>
 				</a>
 				<a class="nav__content__item" href="/stay">
@@ -26,11 +29,8 @@
 					<span class="nav__content__item__text">FAQs</span>
 				</a>
 				<a class="nav__content__item" href="/rsvp">
-					<img class="nav__content__item__icon" src="/images/heart-full.png" alt="Heart">
+					<img class="nav__content__item__icon" src="/images/stars-rsvp.png" alt="Stars">
 					<span class="nav__content__item__text">RSVP</span>
-				</a>
-				<a class="nav__content__item" href="/">
-					<img class="nav__content__item__icon nav__content__item__icon--home" src="/images/25.png" alt="25">
 				</a>
 			</div>
 		</nav>

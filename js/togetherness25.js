@@ -155,10 +155,10 @@ $(function() {
 		} else {
 			$('fieldset[name="quantity"],fieldset[name="transportation"]').removeClass('hidden');
 			
-			if (transportation == "Bus") {
-				$('fieldset[name="carpool"]').addClass('hidden');
-			} else if (transportation == "Car") {
+			if (transportation == "Car") {
 				$('fieldset[name="carpool"]').removeClass('hidden');
+			} else {
+				$('fieldset[name="carpool"]').addClass('hidden');
 			}
 			
 			if (carpool != "") {

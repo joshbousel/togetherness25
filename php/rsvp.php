@@ -31,7 +31,7 @@ while($row = mysqli_fetch_array($repliesResult)) {
 	
 	$html = "<li><strong>".$name."</strong>";
 	
-	if ($rsvp == "Yes") {
+	if ($rsvp == "Yes" && $guestCount != 0) {
 		$html .= " ($guestCount)";
 	}
 	
@@ -51,14 +51,14 @@ while($row = mysqli_fetch_array($repliesResult)) {
 } ?>
 
 			<div class="page__icon">
-				<img src="/images/heart-full.png" alt="Heart">
+				<a href="/"><img src="/images/stars-rsvp.png" alt="Stars"></a>
 			</div>
 			<div class="page__content">
 				<h1>RSVP</h1>
 				<?php if ($guest == "") { ?>
-					<p>Please use the RSVP link sent to your email to submit your RSVP and view the guest list. Contact Josh or Kris if you did not receive a RSVP email or need the link again.</p>
+					<p>Please use the RSVP link sent to you via email to RSVP and view the guest list. Contact Josh or Kris if you did not receive a RSVP email or need the link again.</p>
 				<?php } else { ?>
-					<p>Kindly RSVP by July 31. We're looking forward to seeing many of you this October!</p>
+					<p>Kindly RSVP by July 31. You'll be able to edit your RSVP after submitting if needed. We're looking forward to seeing many of you this October!</p>
 					<div class="rsvp">
 						<div class="rsvp__container<?php if ($rsvpContainerClass != "") { echo(" $rsvpContainerClass"); } ?>"">
 							<?php include('rsvp-actions.php'); ?>
@@ -80,7 +80,7 @@ while($row = mysqli_fetch_array($repliesResult)) {
 					<?php }
 					if ($emptyRSVP != "") { ?>
 						<h2>Waiting Room</h2>
-						<ul class="rsvp-list">
+						<ul class="rsvp-list rsvp-list--waiting">
 							<?php echo($emptyRSVP); ?>
 						</ul>
 					<?php } 

@@ -1,6 +1,6 @@
 		<main class="page">
 			<div class="page__icon">
-				<img src="/images/heart-full.png" alt="Heart">
+				<a href="/"><img src="/images/heart-full.png" alt="Heart"></a>
 			</div>
 			<div class="page__content">
 				<h1>FAQs</h1>

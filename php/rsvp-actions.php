@@ -47,7 +47,7 @@ if (isset($_POST['action'])) {
 			$transportation = null;
 			$carpool = null;
 		} else {
-			if ($transportation == "Bus") {
+			if ($transportation == "Bus" || $transportation == "Not Sure") {
 				$carpool = "N/A";
 			} elseif ($carpool == "") {
 				$carpool = "N/A";
@@ -122,6 +122,9 @@ if ($note != "") {
 				<input type="radio" id="bus" name="transportation" value="Bus"<?php if ($transportation == "Bus"){ echo(" checked"); }?>> <label for="bus">Yes, I'll take the bus</label>
 			</div>
 			<div class="rsvp__container__fields__field">
+				<input type="radio" id="not-sure" name="transportation" value="Not Sure"<?php if ($transportation == "Not Sure"){ echo(" checked"); }?>> <label for="not-sure">Not sure</label>
+			</div>
+			<div class="rsvp__container__fields__field">
 				<input type="radio" id="car" name="transportation" value="Car"<?php if ($transportation == "Car"){ echo(" checked"); }?>> <label for="car">No thanks</label>
 			</div>
 		</div>
@@ -130,13 +133,7 @@ if ($note != "") {
 		<legend>If you plan on driving, would you be willing to give a lift to someone to or from the party?</legend>
 		<div class="rsvp__container__fields">
 			<div class="rsvp__container__fields__field">
-				<input type="radio" id="carpool-yes" name="carpool" value="Yes"<?php if ($carpool == "Yes"){ echo(" checked"); }?>> <label for="carpool-yes">Sure</label>
-			</div>
-			<div class="rsvp__container__fields__field">
-				<input type="radio" id="carpool-no" name="carpool" value="No"<?php if ($carpool == "No"){ echo(" checked"); }?>> <label for="carpool-no">Prefer not</label>
-			</div>
-			<div class="rsvp__container__fields__field">
-				<input type="radio" id="carpool-na" name="carpool" value="N/A"<?php if ($carpool == "N/A"){ echo(" checked"); }?>> <label for="carpool-na">Doesn't Apply</label>
+				<input type="checkbox" id="carpool-yes" name="carpool" value="Yes"<?php if ($carpool == "Yes"){ echo(" checked"); }?>> <label for="carpool-yes">Sure</label>
 			</div>
 		</div>
 	</fieldset>
@@ -208,6 +205,9 @@ if ($note != "") {
 						<div class="rsvp__container__fields__field">
 							<a href="#" class="rsvp__container__transportation btn" data-transportation="Car">No thanks</a>
 						</div>
+						<div class="rsvp__container__fields__field">
+							<a href="#" class="rsvp__container__transportation btn" data-transportation="Not Sure">Not sure yet</a>
+						</div>
 					</div>
 				<?php } else {
 					if ($transportation == "Car" && $carpool == "") { ?>
@@ -218,10 +218,7 @@ if ($note != "") {
 								<a href="#" class="rsvp__container__carpool btn" data-carpool="Yes">Sure</a>
 							</div>
 							<div class="rsvp__container__fields__field">
-								<a href="#" class="rsvp__container__carpool btn" data-carpool="No">Prefer Not</a>
-							</div>
-							<div class="rsvp__container__fields__field">
-								<a href="#" class="rsvp__container__carpool btn" data-carpool="N/A">Doesn't Apply</a>
+								<a href="#" class="rsvp__container__carpool btn btn--secondary" data-carpool="N/A">Skip</a>
 							</div>
 						</div>
 					<?php } else { 

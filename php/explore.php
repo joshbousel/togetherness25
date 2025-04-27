@@ -1,6 +1,6 @@
 		<main class="page">
 			<div class="page__icon page__icon--indent">
-				<img src="/images/marker.png" alt="Marker">
+				<a href="/"><img src="/images/marker.png" alt="Marker"></a>
 			</div>
 			<div class="page__content">
 				<h1>Explore</h1>

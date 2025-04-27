@@ -1,11 +1,17 @@
 		<main class="page">
 			<div class="page__icon">
-				<img src="/images/25.png" alt="25">
+				<a href="/"><img src="/images/25.png" alt="25"></a>
 			</div>
 			<div class="page__content">
 				<h1>Partytime <span>(excellent)</span></h1>
 				<h3>Saturday October 11, 2005<br>5:00-9:00pm</h3>
 				<p><a href="https://maps.app.goo.gl/TobzYKomyGWdtMdG8" target="_blank">The Plant</a><br>192 Lorax Ln, Pittsboro, NC 27312</p>
+				<p class="page__rsvp">
+					<a href="/rsvp">
+						<img src="/images/rsvp.png" alt="RSVP">
+						<img src="/images/rsvp-hover.png" alt="RSVP">
+					</a>
+				</p>
 				<h2>The Plant</h2>
 				<hr>
 				<h2>Pittsboro</h2>

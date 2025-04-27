@@ -1,17 +1,17 @@
 		<main class="page">
 			<div class="page__icon">
-				<img src="/images/star-playtime.png" alt="Star">
+				<a href="/"><img src="/images/star-playtime.png" alt="Star"></a>
 			</div>
 			<div class="page__content">
 				<h1>Let's play</h1>
 				<p>We’re so excited to see y’all and hope to spend more time with everyone outside of the party too. We have some scheduled meet-ups you can join up with, and there’s downtime to just hang around too.</p>
 				<h2>Patio Karaoke + Pizza</h2>
 				<h3>Fri Oct 10 @ 5:00pm</h3>
-				<p>If you want the truest Josh+Kris Durham experience, join us in our backyard for an evening of patio karaoke with pizza to enjoy alongside. We'll be out as long as people are up for hanging out, but we'll probably need to go into quiet mode around 10:00pm.</p>
+				<p>If you want the truest Josh+Kris Durham experience, join us in our backyard for an evening of patio karaoke with pizza and sides to enjoy alongside. We'll be out as long as people are up for hanging out, but we'll probably need to go into quiet mode around 10:00pm.</p>
 				<hr>
 				<h2>Morning River Hike on the Eno</h2>
 				<h3>Sat Oct 11 @ 8:30am</h3>
-				<p>Early risers unite for a hike along the Eno River. We'll start at the <a href="https://maps.app.goo.gl/WvKQ61kYwADpWLTj7" target="_blank">main parking lot</a> at the <a href="https://www.ncparks.gov/state-parks/eno-river-state-park" target="_blank">Eno River State Park</a>, which is at the end of Cole Mill Road. From there is a short bit of downhill to the river where you can choose to trek for just a little while or for miles.</p>
+				<p>Early risers unite for a hike along the Eno River. We'll start at the <a href="https://maps.app.goo.gl/WvKQ61kYwADpWLTj7" target="_blank">main parking lot</a> at the <a href="https://www.ncparks.gov/state-parks/eno-river-state-park" target="_blank">Eno River State park</a>, which is at the end of Cole Mill Road. From there is a short bit of downhill to the river where you can choose to trek for just a little while or for miles.</p>
 				<hr>
 				<h2>Central Park Picnic</h2>
 				<h3>Sun Oct 12 @ 11:00am</h3>
@@ -23,6 +23,6 @@
 				<hr>
 				<h2>Bowling</h2>
 				<h3>Mon Oct 13 @ 12:00pm</h3>
-				<p>Another useless fact for you, sometimes Kris subs on a bowling league. Despite our beloved old school alley closing a couple years ago, we still bowl at nearby <a href="https://maps.app.goo.gl/Rq44rHGLWhkBXmWL8" target="_blank">Bowlero</a> and would like to enjoy a game or two if you're sticking around to make it a 3-day weekend. </p>
+				<p>Another useless fact for you, sometimes Kris subs on a bowling league. Despite our beloved old school alley closing a couple years ago, we still bowl at nearby <a href="https://maps.app.goo.gl/Rq44rHGLWhkBXmWL8" target="_blank">Bowlero</a> and would like to enjoy a game or two if you're sticking around to make it a 3-day weekend.</p>
 			</div>
 		</main>

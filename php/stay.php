@@ -1,10 +1,10 @@
 		<main class="page">
 			<div class="page__icon">
-				<img src="/images/moon.png" alt="Moon">
+				<a href="/"><img src="/images/moon.png" alt="Moon"></a>
 			</div>
 			<div class="page__content">
 				<h1>Stay a while</h1>
-				<p>If you're traveling from out of town, we hope you'll stay the weekend, hang out, and explore Durham and beyond. To help with that, we have room blocks at two Durham hotels as well as collected some Airbnb Suggestions. If the room blocks are sold out, please let Josh or Kris know and we'll try to add more rooms.</p>
+				<p>If you're traveling from out of town, we hope you'll stay the weekend, hang out, and explore Durham and beyond. To help with that, we have room blocks at two Durham hotels and also collected some Airbnb suggestions. If the room blocks are sold out, please let Josh or Kris know and we'll try to add more rooms.</p>
 				<h2>Aloft</h2>
 				<h3>$199/night + $15/night parking</h3>
 				<p>The Aloft is centrally located in Downtown Durham where you can walk to many restaurants, bars, and venues. Rideshares are plentiful Downtown, so if you don’t plan on having a car, it will be a quick Uber/Lyft to get most place you want to go in Durham. The bus pick-up and drop-off for the party will be at the Aloft.</p>

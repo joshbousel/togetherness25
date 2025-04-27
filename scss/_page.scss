@@ -14,7 +14,7 @@
 	@media all and (max-width: $break-small) {
 		gap: 35px;
 		min-height: calc(100% - 50px);
-		padding: 15px 15px 35px;
+		padding: 25px 15px 35px;
 	}
 	
 	&__content {
@@ -65,6 +65,7 @@
 			}
 			
 			@media all and (max-width: $break-small) {
+				margin: 0 0 0 10px;
 				width: 100px;
 			}
 		}
@@ -84,8 +85,43 @@
 				}
 				
 				@media all and (max-width: $break-small) {
-					margin: 0;
+					margin: 0 0 0 10px;
 					width: 75px;
+				}
+			}
+		}
+	}
+	
+	&__rsvp {
+		margin: 0 0 50px;
+		max-width: 200px;
+		width: 100%;
+		
+		a {
+			display: block;
+			height: 26px;
+			position: relative; 
+			
+			&:hover {
+				img {
+					&:first-of-type {
+						opacity: 1;
+					}
+				}
+			}
+			
+			
+			img {
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				
+				&:first-of-type {
+					left: 3px;
+					opacity: 0;
+					top: 2px;
+					transition: $default-transition;
 				}
 			}
 		}
