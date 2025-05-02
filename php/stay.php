@@ -4,19 +4,19 @@
 			</div>
 			<div class="page__content">
 				<h1>Stay a while</h1>
-				<p>If you're traveling from out of town, we hope you'll stay the weekend, hang out, and explore Durham and beyond. To help with that, we have room blocks at two Durham hotels and also collected some Airbnb suggestions. If the room blocks are sold out, please let Josh or Kris know and we'll try to add more rooms.</p>
+				<p>If you're traveling from out of town, we hope you'll stay the weekend, hang out, and explore Durham and beyond. We’ve put together a few options including room blocks at two Durham hotels and a collection of Airbnbs. Note: If the room blocks are sold out, please let us know and we'll see about adding more rooms.</p>
 				<h2>Aloft</h2>
 				<h3>$199/night + $15/night parking</h3>
-				<p>The Aloft is centrally located in Downtown Durham where you can walk to many restaurants, bars, and venues. Rideshares are plentiful Downtown, so if you don’t plan on having a car, it will be a quick Uber/Lyft to get most place you want to go in Durham. The bus pick-up and drop-off for the party will be at the Aloft.</p>
+				<p>The Aloft is centrally located in downtown Durham where you can walk to most restaurants, bars, and venues. Rideshares are plentiful downtown, so if you don’t plan on having a car, it will be a quick Uber/Lyft to get most places you want to go. The bus pick-up and drop-off for the party will be at the Aloft.</p>
 				<p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1739900369222&key=GRP&guestreslink2=true&app=resvlink" target="_blank" class="btn">Book Aloft</a>
 				<hr>
 				<h2>SpringHill Suites Durham Chapel Hill</h2>
 				<h3>$149/night</h3>
-				<p>A more suburban setting, but still with a lot of good food choices right around the hotel. You’ll want a car if you’re staying here. Useless fact, this is where we stayed when trying to decide if we wanted to move to Durham and finding where to live.</p>
+				<p>A more suburban setting with plenty of good food options nearby. About a 10-min drive to Chapel Hill/UNC, 15-min to downtown Durham, and about a half hour to The Plant in Pittsboro. You’ll probably want to have a car if you plan on staying here and want to explore the surrounding area. Useless fact: Once we were decided on leaving Queens for Durham, this is where we stayed when we came down on a weekend trip to find a place to live 🙂</p>
 				<p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1740169539832&key=GRP&guestreslink2=true&app=resvlink" target="_blank" class="btn">Book SpringHill Suites</a>
 				<hr>
 				<h2>Airbnb</h2>
-				<p>If you have a larger crew or a home is more of your deal, there’s plenty of Airbnbs in the area. We’ve selected some that look like good options. We recommend choosing to stay in Durham if you want to be close to activities, but there are some nice options near and in Pittsboro if a quiet weekend in the country sounds like what you’re looking for, while still being close to the party.</p>
+				<p>If you have a larger crew or a home is more of your deal, there’re plenty of Airbnbs in the area. We’ve bookmarked a few in some of the more popular neighborhoods in town. We recommend staying in Durham if you want to be close to activities, but there are some nice options in and around Pittsboro if a quiet weekend in the country is more your speed. Note: You don’t actually have to ‘Join’ to view this Airbnb wishlist - simply ‘Exit’ the pop-up window to view.</p>
 				<p><a href="https://www.airbnb.com/wishlists/invite/bee6905d-6e4d-4953-a9b8-5df7a2f64e41?s=67&unique_share_id=74dd5a1f-fc95-4b1d-8457-4c1f0983937c" target="_blank" class="btn">View Airbnbs</a>
 			</div>
 		</main>
