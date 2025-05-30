@@ -12,11 +12,12 @@
 				<hr>
 				<h2>SpringHill Suites Durham Chapel Hill</h2>
 				<h3>$149/night</h3>
-				<p>A more suburban setting with plenty of good food options nearby. About a 10-min drive to Chapel Hill/UNC, 15-min to downtown Durham, and about a half hour to The Plant in Pittsboro. You’ll probably want to have a car if you plan on staying here and want to explore the surrounding area. Useless fact: Once we were decided on leaving Queens for Durham, this is where we stayed when we came down on a weekend trip to find a place to live 🙂</p>
+				<p>A more suburban setting with plenty of good food options nearby. About a 10-min drive to Chapel Hill/UNC, 15-min to downtown Durham, and about a half hour to Windy Hill Farm in Cedar Grove. You’ll probably want to have a car if you plan on staying here and want to explore the surrounding area. Useless fact: Once we were decided on leaving Queens for Durham, this is where we stayed when we came down on a weekend trip to find a place to live 🙂</p>
 				<p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1740169539832&key=GRP&guestreslink2=true&app=resvlink" target="_blank" class="btn">Book SpringHill Suites</a>
 				<hr>
 				<h2>Airbnb</h2>
-				<p>If you have a larger crew or a home is more of your deal, there’re plenty of Airbnbs in the area. We’ve bookmarked a few in some of the more popular neighborhoods in town. We recommend staying in Durham if you want to be close to activities, but there are some nice options in and around Pittsboro if a quiet weekend in the country is more your speed. Note: You don’t actually have to ‘Join’ to view this Airbnb wishlist - simply ‘Exit’ the pop-up window to view.</p>
+				<p>If you have a larger crew or a home is more your vibe, there’re plenty of Airbnbs in the area. We’ve bookmarked a few in some of the more popular neighborhoods in town and in areas with proximity to both Durham and the party.</p>
+				<p>We’d recommend staying in Durham if you want to be close to activities, but there are some nice options in and around North Durham, Chapel Hill and Hillsborough if a quiet weekend in the country is more your speed. (Note: You don’t actually have to ‘Join’ to view this Airbnb wishlist - simply ‘Exit’ the pop-up window to view.)</p>
 				<p><a href="https://www.airbnb.com/wishlists/invite/bee6905d-6e4d-4953-a9b8-5df7a2f64e41?s=67&unique_share_id=74dd5a1f-fc95-4b1d-8457-4c1f0983937c" target="_blank" class="btn">View Airbnbs</a>
 			</div>
 		</main>

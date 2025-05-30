@@ -4,28 +4,31 @@
 			</div>
 			<div class="page__content">
 				<h1>Partytime <span>(excellent)</span></h1>
-				<h3>Saturday October 11, 2005<br>5:00-9:00pm</h3>
-				<p><a href="https://maps.app.goo.gl/TobzYKomyGWdtMdG8" target="_blank">The Plant</a><br>192 Lorax Ln, Pittsboro, NC 27312</p>
+				<h3>Saturday October 11, 2025<br>5:00-9:00pm</h3>
+				<p><a href="https://maps.app.goo.gl/r11KDmMczkAnuAJ99" target="_blank">Windy Hill Farm</a><br>1319 Carr Store Rd, Cedar Grove, NC 27231</p>
 				<p class="page__rsvp">
 					<a href="/rsvp">
 						<img src="/images/rsvp.png" alt="RSVP">
 						<img src="/images/rsvp-hover.png" alt="RSVP">
 					</a>
 				</p>
-				<h2>The Plant</h2>
-				<p>Once the site of the largest flower farm in the US, <em>Boardman’s Flower Farm</em>, aka <em>Sunshine Gardens</em>, specialized in growing “football” chrysanthemums, which it provided for JFK’s inauguration in 1961. <em>Inco Alloys</em> acquired the site in the 80s, turning it into a manufacturing plant producing metal alloys for marine, aircraft, and aerospace industries. In more recent years, it has served as a green industry incubator, kickstarting businesses that include Piedmont Biofarm, Screech Owl Greenhouses, and Eastern Carolina Organics, among others. Today, <a href="https://www.theplantnc.com/" target="_blank">The Plant</a> is a 17-acre eco-industrial park, home to several local businesses including a meadery, native plant nursery, brewery, art gallery, and more.</p>
+				<h2>Windy Hill Farm</h2>
+				<p>Lovingly stewarded by the Gledhills since 1977, the family currently raises goats, tends bees, and grows blueberries in addition to welcoming all manner of celebrations on the farm. The land at Windy Hill has been continuously farmed from the early 1800s, if not longer. Mother and daughter duo Jane & Chiara continue the work and care of the farm in memory of their late husband and father, Geoffrey Earle Gledhill. They remain dedicated to sustainable farming practices, which benefit the environment, improve the health of the land, respect the lives of the animals and people who consume their products, conserve wild spaces, and preserve the history of the land.</p>
+				<p>All dedicated event spaces on the farm are open-air. Most are partially, if not fully, shaded, and the main event pavilion features a few extras like cozy heaters, wind screens, and wall fans, but remember to dress for the weather!</p>
+				<p>All are welcome to explore and enjoy the adjacent lawns, fire pit, gazebo, and goat pasture, in addition to the pavilion, for the duration of the party, so comfortable footwear is also recommended.</p>
+				<hr>
+				<h2>Menu</h2>
+				<p>We’re still working out catering details, but check back here for more info in good time. We’re planning on having gluten-free, dairy-free, and vegetarian options available. If you have any other dietary needs we should consider, please let us know!</p>
 				<hr>
 				<div class="faqs">
 					<h2>Getting There</h2>
 					<h3>Driving</h3>
-					<p>The Plant is about a 40-minute drive from downtown Durham and has plentiful parking throughout the campus. If you’ll be driving and are willing to carpool, be sure to let us know in your RSVP and we’ll coordinate from there.</p>
+					<p>Windy Hill is about a 30-minute drive from downtown Durham. Attendants will be available upon your arrival to help direct parking along the gravel drive. There should be plenty of space for all, but if you’ll be driving and are willing to carpool, please do let us know with your RSVP and we can help coordinate from there, if need be.</p>
+					<p>We recommend using the address for directions because a wrong location shows up in Google Maps when searching for Windy Hill Farm alone.</p>
 					<h3>Bus</h3>
-					<p>For those who don’t have a car or just prefer not to drive, we’ll have a bus going to and from the party. The bus will depart promptly at 4:00pm from the <a href="https://maps.app.goo.gl/6tdnKuMe8o6So5dv5" target="_blank">Aloft</a> in downtown Durham and will return at 9:00pm. If you plan on taking the bus, please let us know in your RSVP to reserve your spot.</p>
+					<p>We’re also planning on having a bus going to and from the farm. The bus will depart promptly at 4:30pm from the <a href="https://maps.app.goo.gl/6tdnKuMe8o6So5dv5" target="_blank">Aloft</a> in downtown Durham and will make the return trip at 9:00pm. If you plan on taking the bus, please let us know when you RSVP to reserve your spot. (No need to commit right this minute 🙂 You can always update your reply later and we’ll be sure to send out reminders as we get closer to party time.)</p>
 					<h3>Rideshares & Carpools</h3>
-					<p>Getting to the venue via Uber/Lyft from Durham shouldn’t be a problem, but getting a ride back from the venue might be. If you plan on using a rideshare service, we highly recommend prearranging a car service to bring you home or connect with us about coordinating a carpool.</p>
+					<p>Getting to Cedar Grove from Durham and back again via Uber/Lyft shouldn’t be an issue w/plenty of available drivers in Durham and nearby Hillsborough, but you may want to arrange your return ride in advance, just to be sure (options may start to dwindle as the evening progresses)!</p>
 				</div>
-				<hr>
-				<h2>What’s on the menu?</h2>
-				<p>We'll be working on the menu in August, so check back for more details. We’re planning on having gluten-free, dairy-free, and vegetarian options available. If you have any other dietary needs we should consider, please get in touch with us.</p>
 			</div>
 		</main>

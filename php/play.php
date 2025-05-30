@@ -4,7 +4,7 @@
 			</div>
 			<div class="page__content">
 				<h1>Let's play</h1>
-				<p>We’re so excited to see y’all and would love to spend more time with everyone throughout the weekend. Hopefully, you can join us sometime!</p>
+				<p>We’re so excited to see y’all and would love to spend more time with everyone throughout the long weekend. Hopefully, you can join us sometime!</p>
 				<h2>Patio Karaoke + Pizza</h2>
 				<h3>Fri Oct 10 @ 5:00pm</h3>
 				<p>If you want the truest Josh+Kris Durham experience, join us in our backyard for an evening of patio karaoke with pizza and snacks. We'll be out as long as people are up for hanging out, but we'll probably need to go into quiet mode by around 10pm.</p>

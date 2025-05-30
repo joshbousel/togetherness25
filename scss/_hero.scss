@@ -147,9 +147,9 @@
 		width: 19%;
 		
 		@media all and (max-width: $break-medium) {
-			left: 63.8%;
-			top: 85.89%;
-			width: 32%;
+			left: 66.8%;
+			top: 83.89%;
+			width: 29%;
 		}
 		
 		&:hover {
@@ -165,9 +165,9 @@
 			
 			&:last-of-type {
 				display: none;
-				left: -20%;
+				left: -13%;
 				position: absolute;
-				top: 42%;
+				top: 35%;
 				width: 19%;
 			}
 		}

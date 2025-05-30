@@ -12,7 +12,7 @@
 					<img src="/images/date-hover.png" alt="Oct 11th">
 				</a>
 				<a href="/explore" class="hero__location">
-					<img src="/images/location.png" alt="Pittsboro, NC">
+					<img src="/images/location.png" alt="Cedar Grove, NC">
 					<img src="/images/marker-hover.png" alt="Marker">
 				</a>
 				<a href="/play" class="hero__star--left-big">

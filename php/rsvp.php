@@ -58,7 +58,7 @@ while($row = mysqli_fetch_array($repliesResult)) {
 				<?php if ($guest == "") { ?>
 					<p>Please use the RSVP link sent to you via email to RSVP and view the guest list. Contact Josh or Kris if you did not receive a RSVP email or need the link again.</p>
 				<?php } else { ?>
-					<p>Kindly RSVP by July 31. You'll be able to edit your RSVP after submitting if needed. We're looking forward to seeing many of you this October!</p>
+					<p>Kindly RSVP by the end of August. You'll be able to edit your RSVP after submitting if needed. We're looking forward to seeing many of you this October!</p>
 					<div class="rsvp">
 						<div class="rsvp__container<?php if ($rsvpContainerClass != "") { echo(" $rsvpContainerClass"); } ?>"">
 							<?php include('rsvp-actions.php'); ?>
