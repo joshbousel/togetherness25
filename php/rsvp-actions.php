@@ -10,6 +10,8 @@ if (isset($_POST['action'])) {
 	}
 	
 	if ($_POST['action'] == "save") {
+		$date = date('y.m.d.H.i.s');
+		
 		if (isset($_POST['rsvp'])) {
 			$rsvp = $_POST['rsvp'];
 			$set = "rsvp = '$rsvp'";
@@ -29,6 +31,8 @@ if (isset($_POST['action'])) {
 			$set = "note = '$note'";
 		}
 		
+		$set .= ", date = '$date'";
+		
 		$update = "UPDATE guests SET $set WHERE uuid = '$guest'";
 		dbQuery($update);	
 	} elseif ($_POST['action'] == "edit") {
@@ -40,6 +44,7 @@ if (isset($_POST['action'])) {
 		$transportation = $_POST['transportation'];
 		$carpool = $_POST['carpool'];
 		$note = $_POST['note'];
+		$date = date('y.m.d.H.i.s');
 		
 		if ($rsvp == "No") {
 			$adults = null;
@@ -60,7 +65,7 @@ if (isset($_POST['action'])) {
 			$note = addslashes($note);
 		}
 		
-		$update = "UPDATE guests SET rsvp = '$rsvp', adults = '$adults', children = '$children', transportation = '$transportation', carpool = '$carpool', note = '$note' WHERE uuid = '$guest'";
+		$update = "UPDATE guests SET rsvp = '$rsvp', adults = '$adults', children = '$children', transportation = '$transportation', carpool = '$carpool', note = '$note', date = '$date' WHERE uuid = '$guest'";
 		dbQuery($update);
 	}
 }

@@ -13,7 +13,7 @@ if (isset($_COOKIE["guest"])) {
 	$guest = $_COOKIE["guest"];
 }
 
-$repliesSelect = "SELECT first_name, last_name, rsvp, note, adults, children FROM guests ORDER BY first_name ASC";
+$repliesSelect = "SELECT first_name, last_name, rsvp, note, adults, children FROM guests ORDER BY date DESC, first_name ASC";
 $repliesResult = dbQuery($repliesSelect);
 $yesRSVP = "";
 $noRSVP = "";
