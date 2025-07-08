@@ -37,11 +37,17 @@ $(function() {
 			data: { guest: params['guest'] }
 		})
 		.done(function() {
-			if (window.location.pathname == '/rsvp') {
+			if (window.location.pathname == '/rsvp' || window.location.pathname == '/play') {
+				let url = '/php/rsvp.php';
+				
+				if (window.location.pathname == '/play') {
+					url = '/php/play.php';
+				}
+				
 				$.ajax({
 					async: true,
 					method: "POST",
-					url: "/php/rsvp.php",
+					url: url,
 					data: { login: 'true' }
 				})
 				.done(function(content) {
@@ -63,6 +69,22 @@ $(function() {
 	
 		return params
 	}
+	
+	// Play RSVP Functions
+	$('body').on('click','.rsvp-play__action',function(e){
+		e.preventDefault();
+		let event = $(this).attr('data-event');
+		let rsvp = $(this).attr('data-rsvp');
+		
+		$.ajax({
+			async: true,
+			method: "POST",
+			url: "/php/play.php",
+			data: { action: 'save', event: event, rsvp: rsvp }
+		}).done(function(content) {
+			$('main').html(content);
+		});
+	});
 	
 	// RSVP Functions
 	$('body').on('click','.rsvp__container__attending',function(e){

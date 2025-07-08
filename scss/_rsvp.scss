@@ -176,4 +176,29 @@
 			}
 		}
 	}
+	
+	&-play {
+		display: flex;
+		gap: 10px;
+		
+		&__content {
+			line-height: 1.25rem;
+			
+			.rsvp-play__action {
+				display: block;
+				font-size: .875rem;
+			}
+		}
+		
+		&__icon {
+			background: #2a4273;
+			border-radius: 50%;
+			color: #fff;
+			display: inline-block;
+			height: 28px;
+			line-height: 29px;
+			text-align: center;
+			width: 28px;
+		}
+	}
 }
