@@ -56,7 +56,8 @@ if ($guest != "") {
 				<hr>
 				<h2>Morning River Hike on the Eno</h2>
 				<h3>Sat Oct 11 @ 8:30am</h3>
-				<p>Early risers unite for a hike along the Eno River. We'll start at the <a href="https://maps.app.goo.gl/WvKQ61kYwADpWLTj7" target="_blank">main parking lot</a> at the <a href="https://www.ncparks.gov/state-parks/eno-river-state-park" target="_blank">Eno River State park</a>, which is at the end of Cole Mill Road. From there it is a short bit of downhill to the river where you can choose to trek for just a little while or go for miles.</p>
+				<p>Early risers unite for a hike along the Eno River. We'll start at the <a href="https://maps.app.goo.gl/WvKQ61kYwADpWLTj7" target="_blank">main parking lot</a> at the <a href="https://www.ncparks.gov/state-parks/eno-river-state-park" target="_blank">Eno River State Park</a>, which is at the end of Cole Mill Road. From there it is a short bit of downhill to the river where you can choose to trek for just a little while or go for miles.</p>
+				<p><strong>Note:</strong> Eno River State Park is currently closed due to the floods from tropical storm Chantal. If the park does not reopen before Oct 11, we'll choose a different location for this hike. 
 				<?php echo($rsvpHTML[1]); ?>
 				<hr>
 				<h2>Picnic Brunch</h2>

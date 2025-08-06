@@ -21,13 +21,13 @@
 					<p>Your presence is a present 🙂</p>
 					<hr>
 					<h3>Can we hang outside of the party?</h3>
-					<p>Of course! We’re planning on setting up a few more official meet-ups throughout the weekend. Keep an eye on <a href="/play">Let’s play</a> for details.</p>
+					<p>Of course! We've set up a few more official meet-ups throughout the weekend, plus will also be down for ad hoc hangs Friday through Monday (or longer if you're staying beyond the weekend). Check out <a href="/play">Let’s play</a> for details and please mark if you're planning on attending any of the extra curricular activities.</p>
 					<hr>
 					<h3>Where should I stay?</h3>
 					<p>We recommend staying in Durham since everything except the party will take place there. Check  <a href="/stay">Stay a while</a> for hotel blocks and some Airbnb recommendations. If there are no more hotel rooms left in our blocks, let us know and we’ll see about adding add more.</p>
 					<hr>
 					<h3>Do I need a car?</h3>
-					<p>It would probably be more convenient, but not totally necessary. We can help arrange carpools to the party, and rideshares are usually plentiful in the area. We’ll also likely have a bus going to and from the party if there’s enough interest. Be sure to let us know when you <a href="/rsvp">RSVP</a> if this sounds like it might be for you!</p>
+					<p>It would probably be more convenient, but not totally necessary. We will have busses going to from the party, plus rideshares are usually plentiful in the area and we can also help arrange carpools. If you're interested in taking the bus, be sure to let us know when you <a href="/rsvp">RSVP</a> since space is limited.</p>
 					<p>Quick reminder: If you plan on taking a rideshare to the party, we recommend arranging your return trip in advance. (Getting an Uber or Lyft from Cedar Grove back to Durham may be less reliable in the evening.)</p>
 					<hr>
 					<h3>What else should I do while I'm in North Carolina?</h3>
