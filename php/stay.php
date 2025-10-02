@@ -4,7 +4,8 @@
 			</div>
 			<div class="page__content">
 				<h1>Stay a while</h1>
-				<p>If you're traveling from out of town, we hope you'll stay the weekend, hang out, and explore Durham and beyond. We’ve put together a few options including room blocks at two Durham hotels and a collection of Airbnbs. Note: If the room blocks are sold out, please let us know and we'll see about adding more rooms.</p>
+				<p>If you're traveling from out of town, we hope you'll stay the weekend, hang out, and explore Durham and beyond. We’ve put together a few options including room blocks at two Durham hotels and a collection of Airbnbs.</p>
+				<p>If you're booking outside of Friday through Sunday night, call the hotel directly and mention the block rate <strong>Together25</strong>. Note: If the room blocks are sold out or if you're having problems booking at the discounted rates, please let us know and we'll help out.</p>
 				<h2>Aloft</h2>
 				<h3>$199/night + $15/night parking, must book by Sept 12</h3>
 				<p>The Aloft is centrally located in downtown Durham where you can walk to most restaurants, bars, and venues. Rideshares are plentiful downtown, so if you don’t plan on having a car, it will be a quick Uber/Lyft to get most places you want to go. The bus pick-up and drop-off for the party will be at the Aloft.</p>

@@ -18,7 +18,26 @@
 				<p>All are welcome to explore and enjoy the adjacent lawns, fire pit, gazebo, and goat pasture, in addition to the pavilion, for the duration of the party, so comfortable footwear is also recommended.</p>
 				<hr>
 				<h2>Menu</h2>
-				<p>We’re still working out catering details, but check back here for more info in good time. We’re planning on having gluten-free, dairy-free, and vegetarian options available. If you have any other dietary needs we should consider, please let us know!</p>
+				<p>Southern Harvest Hospitality will be serving up a light grazing-style spread of some NC favorites:</p>
+				<ul>
+					<li>Warm Spinach Artichoke Dip (VG)</li>
+					<li> Pimento Cheese & Applewood Smoked Bacon Deviled Eggs (GF)</li>
+					<li>Diablo Deviled Eggs (DF, GF, VG)</li>
+					<li>Roasted New Potato Boats (GF, VG)</li>
+					<li>Shrimp and Grits Shooters</li>
+					<li>Slider Station with choices of Angus Burger (DF), Pulled Pork (DF), or Portobello Mushroom (DF, GF, VG) (GF buns will be available)</li>
+				</ul>
+				<p>Cakes and other baked treats will be provided by local faves, <a href="https://www.larecettepatisserie.com/" target="_blank">La Recette Patisserie</a> and <a href="https://guglhupf.com/" target="_blank">Guglhupf</a>:</p>
+				<ul>
+					<li>Biscoff Cake with Salted Caramel Buttercream</li>
+					<li>Marble Cake with Chocolate Buttercream</li>
+					<li>Cardamom Cake with Coffee Buttercream</li>
+					<li>Cookie Cake</li>
+					<li>Mini Lemon Tarts</li>
+					<li>Raspberry Chocolate Chunk Cookies (GF, DF)</li>
+					<li>Mini Pumpkin Spiced Chocolate Cupcakes (GF, DF)</li>
+				</ul>
+				<p>GF = Gluten Free, VG = Vegetarian, DF = Dairy Free</p>
 				<hr>
 				<div class="faqs">
 					<h2>Getting There</h2>

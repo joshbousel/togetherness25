@@ -51,18 +51,17 @@ if ($guest != "") {
 				<hr>
 				<h2>Patio Karaoke + Pizza</h2>
 				<h3>Fri Oct 10 @ 5:00pm</h3>
-				<p>If you want the truest Josh+Kris Durham experience, join us in our backyard for an evening of patio karaoke with pizza and snacks. We'll be out as long as people are up for hanging out, but we'll probably need to go into quiet mode by around 10pm.</p>
+				<p>If you want the truest Josh+Kris Durham experience, join us in our backyard <?php if ($guest != "") { echo('(that’s at <a href="https://maps.app.goo.gl/qFbCp7o1GJ7oA3vq6" target="_blank">1501 Southwood Dr</a>)'); } ?> for an evening of patio karaoke with pizza and snacks. Pizza should arrive around 5pm and we’ll get karaoke going a little after 6:30pm. We'll be out as long as people are up for hanging out, but we'll probably need to head inside or go into quiet mode around 10pm.</p>
 				<?php echo($rsvpHTML[0]); ?>
 				<hr>
-				<h2>Morning River Hike on the Eno</h2>
-				<h3>Sat Oct 11 @ 8:30am</h3>
-				<p>Early risers unite for a hike along the Eno River. We'll start at the <a href="https://maps.app.goo.gl/WvKQ61kYwADpWLTj7" target="_blank">main parking lot</a> at the <a href="https://www.ncparks.gov/state-parks/eno-river-state-park" target="_blank">Eno River State Park</a>, which is at the end of Cole Mill Road. From there it is a short bit of downhill to the river where you can choose to trek for just a little while or go for miles.</p>
-				<p><strong>Note:</strong> Eno River State Park is currently closed due to the floods from tropical storm Chantal. If the park does not reopen before Oct 11, we'll choose a different location for this hike. 
+				<h2>Morning River Walk on the Eno</h2>
+				<h3>Sat Oct 11 @ 9:00am</h3>
+				<p>Early risers unite for a hike along the Eno River. We'll start at the <a href="https://maps.app.goo.gl/F5gA6rBgsqRuU6Js6" target="_blank">main parking lot</a> at the <a href="https://www.ncparks.gov/state-parks/eno-river-state-park" target="_blank">Eno River State Park</a> (at the end of Cole Mill Road). From there it’s a short bit of downhill to the river and trail which is mostly an easy stroll, but does require you to walk on tree roots, rocks, and stairs at times. The full trail is just over 2 miles, but of course you’re free to go for as little or as long as you like—though some trails in the park are still closed due to recent storms, there’re many miles of open trails through the woods.</p>
 				<?php echo($rsvpHTML[1]); ?>
 				<hr>
 				<h2>Picnic Brunch</h2>
 				<h3>Sun Oct 12 @ 10:30am-12:30pm</h3>
-				<p>Join us for Sunday morning hangs in the park! We’ve reserved the picnic pavilion at <a href="https://maps.app.goo.gl/NNgZR7HDkFd4iVrQ9" target="_blank">Whippoorwill Park</a> in N. Durham and are planning to set it up with some light fare for sharing, but feel free to BYO brunch faves and other necessities. (Check this space again closer to the day to see what we’ll be covering 🙂)</p>
+				<p>Join us for Sunday morning hangs in the park! We’ve reserved the picnic pavilion at <a href="https://maps.app.goo.gl/NNgZR7HDkFd4iVrQ9" target="_blank">Whippoorwill Park</a> in N. Durham and will be providing some egg casseroles, biscuits, fruit, coffee, and OJ, but feel free to BYO brunch faves and other necessities.</p>
 				<?php echo($rsvpHTML[2]); ?>
 				<hr>
 			</div>
