@@ -18,7 +18,7 @@
 					<p>Whatever makes you feel comfortable and happy. This could be a good excuse to wear that thing you love that you never get to wear. Whatever feels festive to you!</p>
 					<hr>
 					<h3>Gifts?</h3>
-					<p>Your presence is a present 🙂</p>
+					<p>Your presence is a present 🙂, for really, but if you'd like to give a gift of support, please invest in the folks doing important work in our community. We suggest <a href="https://communitiesinpartnership.org/donation" target="_blank">Communities in Partnership</a>, who do community building, collective action, and capacity building here in Durham, or the <a href="https://southernvision.org/donate/" target="_blank">Southern Vision Alliance</a> who support leadership development and base-building work for social, racial, and environmental justice, along with gender equity, LGBTQ rights, and education justice throughout the South by working with groups within local communities.</p>
 					<hr>
 					<h3>Can we hang outside of the party?</h3>
 					<p>Of course! We've set up a few more official meet-ups throughout the weekend, plus will also be down for ad hoc hangs Friday through Monday (or longer if you're staying beyond the weekend). Check out <a href="/play">Let’s play</a> for details and please mark if you're planning on attending any of the extra curricular activities.</p>

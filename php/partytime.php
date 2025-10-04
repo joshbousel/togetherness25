@@ -25,7 +25,7 @@
 					<li>Diablo Deviled Eggs (DF, GF, VG)</li>
 					<li>Roasted New Potato Boats (GF, VG)</li>
 					<li>Shrimp and Grits Shooters</li>
-					<li>Slider Station with choices of Angus Burger (DF), Pulled Pork (DF), or Portobello Mushroom (DF, GF, VG) (GF buns will be available)</li>
+					<li>Slider Station with choices of Angus Burger (GF, DF), Pulled Pork (GF, DF), or Portobello Mushroom (DF, GF, VG) (GF buns will be available)</li>
 				</ul>
 				<p>Cakes and other baked treats will be provided by local faves, <a href="https://www.larecettepatisserie.com/" target="_blank">La Recette Patisserie</a> and <a href="https://guglhupf.com/" target="_blank">Guglhupf</a>:</p>
 				<ul>
